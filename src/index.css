@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+  min-height: 100vh;
+}
+
+body {
+  font-family: "Noto Sans TC", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+  color: #333;
+  background: #fff8f0;
+}
+
+/* Markdown 內容樣式 */
+.markdown-body h1 {
+  @apply text-3xl font-bold mt-6 mb-4 text-brand-brown;
+}
+.markdown-body h2 {
+  @apply text-2xl font-bold mt-6 mb-3 text-brand-brown;
+}
+.markdown-body h3 {
+  @apply text-xl font-semibold mt-5 mb-2 text-brand-brown;
+}
+.markdown-body h4 {
+  @apply text-lg font-semibold mt-4 mb-2 text-brand-brown;
+}
+.markdown-body p {
+  @apply my-3 leading-relaxed;
+}
+.markdown-body ul {
+  @apply list-disc pl-6 my-3;
+}
+.markdown-body ol {
+  @apply list-decimal pl-6 my-3;
+}
+.markdown-body li {
+  @apply my-1 leading-relaxed;
+}
+.markdown-body code {
+  @apply bg-orange-50 text-orange-800 px-1.5 py-0.5 rounded text-sm;
+}
+.markdown-body pre {
+  @apply bg-stone-100 border border-stone-200 rounded-lg p-4 overflow-x-auto my-4;
+}
+.markdown-body pre code {
+  @apply bg-transparent p-0 text-stone-800;
+}
+.markdown-body blockquote {
+  @apply border-l-4 border-brand-orange pl-4 italic my-4 text-stone-600;
+}
+.markdown-body table {
+  @apply w-full my-4 border-collapse;
+}
+.markdown-body th,
+.markdown-body td {
+  @apply border border-stone-300 px-3 py-2 text-left;
+}
+.markdown-body th {
+  @apply bg-stone-100 font-semibold;
+}
+.markdown-body a {
+  @apply text-brand-orange underline decoration-dotted underline-offset-2 hover:decoration-solid;
+}
+.markdown-body hr {
+  @apply my-6 border-stone-300;
+}

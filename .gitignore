@@ -1,0 +1,29 @@
+node_modules
+dist
+dist-ssr
+*.local
+.env
+.env.*.local
+
+# IDE
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+
+# 大型教材檔（請上傳到 Google Drive）
+*.pptx
+*.pdf
+投影片/
+*_完整教材*.zip
+*_完整教材包.zip
+CSI_科學小偵探_全集*
+國家主題探索_完整教材包*
+小小甜點烘焙師_完整教材*
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
