@@ -318,16 +318,108 @@ baking.weeks.forEach((w) => {
   });
 });
 
-// ---------- 4~6. 其他尚未提供完整教材的課程（先放占位） ----------
+// ---------- 4. 定格動畫導演（W1-W8，pptx 投影片放 Google Drive） ----------
+// Drive 檔案 ID 對照（用 /slides/sm-drive-{id} 格式之後解析）
+const SM_DRIVE = (id: string) =>
+  `https://drive.google.com/file/d/${id}/view`;
+
 const stopmotion: TeacherCourse = {
   id: "stopmotion",
   name: "定格動畫導演",
   icon: "🎬",
   color: "#1A1A2E",
   bgColor: "#FFF3E0",
-  hasMaterials: false,
-  weeks: [],
+  hasMaterials: true,
+  weeks: [
+    {
+      week: 1,
+      title: "認識定格動畫與基礎拍攝",
+      days: [
+        { day: 1, title: "什麼是定格動畫", slideUrl: "", slideFormat: "none" },
+        { day: 2, title: "基礎拍攝技巧", slideUrl: "", slideFormat: "none" },
+        { day: 3, title: "簡單動畫實作", slideUrl: "", slideFormat: "none" },
+        { day: 4, title: "週末小作品", slideUrl: "", slideFormat: "none" },
+      ],
+    },
+    {
+      week: 2,
+      title: "黏土動畫初探",
+      days: [
+        { day: 1, title: "黏土塑形基礎", slideUrl: "", slideFormat: "none" },
+        { day: 2, title: "角色設計", slideUrl: "", slideFormat: "none" },
+        { day: 3, title: "骨架與支撐", slideUrl: "", slideFormat: "none" },
+        { day: 4, title: "短篇黏土動畫", slideUrl: "", slideFormat: "none" },
+      ],
+    },
+    {
+      week: 3,
+      title: "場景與道具製作",
+      days: [
+        { day: 1, title: "場景概念", slideUrl: "", slideFormat: "none" },
+        { day: 2, title: "道具製作", slideUrl: "", slideFormat: "none" },
+        { day: 3, title: "燈光基礎", slideUrl: "", slideFormat: "none" },
+        { day: 4, title: "場景整合", slideUrl: "", slideFormat: "none" },
+      ],
+    },
+    {
+      week: 4,
+      title: "故事與分鏡",
+      days: [
+        { day: 1, title: "故事腳本", slideUrl: "", slideFormat: "none" },
+        { day: 2, title: "分鏡圖製作", slideUrl: "", slideFormat: "none" },
+        { day: 3, title: "腳本實拍", slideUrl: "", slideFormat: "none" },
+        { day: 4, title: "週末成果", slideUrl: "", slideFormat: "none" },
+      ],
+    },
+    {
+      week: 5,
+      title: "運鏡技巧",
+      days: [
+        { day: 1, title: "運鏡 Day 1", slideUrl: "", slideFormat: "none" },
+        { day: 2, title: "運鏡 Day 2", slideUrl: "", slideFormat: "none" },
+        { day: 3, title: "運鏡 Day 3", slideUrl: "", slideFormat: "none" },
+        { day: 4, title: "運鏡綜合挑戰", slideUrl: SM_DRIVE("1X84sf4jUfSjPNOoqrLC2gudSSLueUNrG"), slideFormat: "manus" },
+      ],
+    },
+    {
+      week: 6,
+      title: "魔術定格效果",
+      days: [
+        { day: 1, title: "消失的魔術", slideUrl: SM_DRIVE("1z4_21-0-F_E4YXmB_4Yl9SM9Oks8FFP1"), slideFormat: "manus" },
+        { day: 2, title: "穿牆術", slideUrl: SM_DRIVE("1nSkfiraR-9JjAb2Y8HB6ga8DrpuxkYKg"), slideFormat: "manus" },
+        { day: 3, title: "漂浮術", slideUrl: SM_DRIVE("1mogkeplC03C51svfrCMzTUru8JaqTUOy"), slideFormat: "manus" },
+        { day: 4, title: "魔術綜合挑戰", slideUrl: SM_DRIVE("1Yu9Jxbz_iKA5xVnSfzlWdLq8IYBcGTW7"), slideFormat: "manus" },
+      ],
+    },
+    {
+      week: 7,
+      title: "進階黏土技法",
+      days: [
+        { day: 1, title: "進階黏土捏塑", slideUrl: SM_DRIVE("1qpUItFdGy9i-4GtaIwzzKZ6igwmIY_EY"), slideFormat: "manus" },
+        { day: 2, title: "臉部表情變化", slideUrl: SM_DRIVE("1Z7O9SPOLitMvl7sTc09zALc1xRIICs30"), slideFormat: "manus" },
+        { day: 3, title: "走路與跑步", slideUrl: SM_DRIVE("1fzALC4Jx0eNG0BpABCGP_PApXHrbo7fZ"), slideFormat: "manus" },
+        { day: 4, title: "進階黏土綜合挑戰", slideUrl: SM_DRIVE("1_X9uWlY86_cnO27jsqA6jYznbhcXUoNW"), slideFormat: "manus" },
+      ],
+    },
+    {
+      week: 8,
+      title: "畢業微電影",
+      days: [
+        { day: 1, title: "畢業微電影企劃", slideUrl: SM_DRIVE("1YKGCPAsGwujYDJkMrAisonQRgiNrmjU3"), slideFormat: "manus" },
+        { day: 2, title: "道具與場景製作", slideUrl: SM_DRIVE("1MOPiPjc67bPaiBeHvLU8_3qJh6HExXLS"), slideFormat: "manus" },
+        { day: 3, title: "微電影開拍", slideUrl: SM_DRIVE("10mN80tgCwFD-FGg5bExa8vQpdpf89NR1"), slideFormat: "manus" },
+        { day: 4, title: "剪輯與首映會", slideUrl: SM_DRIVE("12e3WjiCNnePCIu2xdYN_ECNH-S-umxoY"), slideFormat: "manus" },
+      ],
+    },
+  ],
 };
+
+// 為每個 day 注入 scriptKey（指向 src/content/stopmotion/w{n}/day{m}.md）
+stopmotion.weeks.forEach((w) => {
+  w.days.forEach((d) => {
+    d.scriptKey = `/src/content/stopmotion/w${w.week}/day${d.day}.md`;
+  });
+});
 
 // ---------- 4. 韓系美學手作坊（W1-W8 主題、共用一份總投影片） ----------
 const ART_MAIN_PDF = "/slides/art/main.pdf";
@@ -437,14 +529,64 @@ const art: TeacherCourse = {
   ],
 };
 
+// ---------- 6. AI 魔法工坊（單一 PDF 介紹，放 Google Drive） ----------
+const AI_DRIVE = "https://drive.google.com/file/d/1Tnu4JDkcEMLHe4bxl7FD6RxLwzwHHG4s/view";
+const aiDay = (n: number, title: string) => ({
+  day: n,
+  title,
+  slideUrl: AI_DRIVE,
+  slideFormat: "manus" as const,
+});
+
 const ai: TeacherCourse = {
   id: "ai",
   name: "AI 魔法工坊",
   icon: "🤖",
   color: "#4A148C",
   bgColor: "#EDE7F6",
-  hasMaterials: false,
-  weeks: [],
+  hasMaterials: true,
+  weeks: [
+    {
+      week: 1,
+      title: "AI 繪圖入門",
+      days: [aiDay(1, "Day 1"), aiDay(2, "Day 2"), aiDay(3, "Day 3"), aiDay(4, "Day 4")],
+    },
+    {
+      week: 2,
+      title: "AI 漫畫創作",
+      days: [aiDay(1, "Day 1"), aiDay(2, "Day 2"), aiDay(3, "Day 3"), aiDay(4, "Day 4")],
+    },
+    {
+      week: 3,
+      title: "AI 圖像進階",
+      days: [aiDay(1, "Day 1"), aiDay(2, "Day 2"), aiDay(3, "Day 3"), aiDay(4, "Day 4")],
+    },
+    {
+      week: 4,
+      title: "AI 故事生成",
+      days: [aiDay(1, "Day 1"), aiDay(2, "Day 2"), aiDay(3, "Day 3"), aiDay(4, "Day 4")],
+    },
+    {
+      week: 5,
+      title: "AI Podcast 製作",
+      days: [aiDay(1, "Day 1"), aiDay(2, "Day 2"), aiDay(3, "Day 3"), aiDay(4, "Day 4")],
+    },
+    {
+      week: 6,
+      title: "AI 影片",
+      days: [aiDay(1, "Day 1"), aiDay(2, "Day 2"), aiDay(3, "Day 3"), aiDay(4, "Day 4")],
+    },
+    {
+      week: 7,
+      title: "AI 創作整合",
+      days: [aiDay(1, "Day 1"), aiDay(2, "Day 2"), aiDay(3, "Day 3"), aiDay(4, "Day 4")],
+    },
+    {
+      week: 8,
+      title: "成果發表",
+      days: [aiDay(1, "Day 1"), aiDay(2, "Day 2"), aiDay(3, "Day 3"), aiDay(4, "Day 4")],
+    },
+  ],
 };
 
 export const teacherCourses: TeacherCourse[] = [

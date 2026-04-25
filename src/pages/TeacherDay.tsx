@@ -84,7 +84,9 @@ function labelForFormat(f: string) {
     case "images":
       return "圖片投影片";
     case "manus":
-      return "Manus 連結";
+      return "Google Drive";
+    case "none":
+      return "（投影片整理中）";
     default:
       return "尚未指定格式";
   }
