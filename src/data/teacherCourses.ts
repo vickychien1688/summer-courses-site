@@ -335,8 +335,7 @@ baking.weeks.forEach((w) => {
 
 // ---------- 4. 定格動畫導演（W1-W8，pptx 投影片放 Google Drive） ----------
 // Drive 檔案 ID 對照（用 /slides/sm-drive-{id} 格式之後解析）
-const SM_DRIVE = (id: string) =>
-  `https://drive.google.com/file/d/${id}/view`;
+const SM_DRIVE = (id: string) => `https://drive.google.com/file/d/${id}/view`;
 
 const stopmotion: TeacherCourse = {
   id: "stopmotion",
@@ -436,8 +435,9 @@ stopmotion.weeks.forEach((w) => {
   });
 });
 
-// ---------- 4. 韓系美學手作坊（W1-W8 主題、共用一份總投影片） ----------
+// ---------- 5. 韓系美學手作坊（W1-W8 主題、共用一份總投影片） ----------
 const ART_MAIN_PDF = "/slides/art/main.pdf";
+
 const artDay = (n: number, title: string) => ({
   day: n,
   title,
@@ -549,6 +549,7 @@ const art: TeacherCourse = {
 
 // ---------- 6. AI 魔法工坊（單一 PDF 介紹，放 Google Drive） ----------
 const AI_DRIVE = "https://drive.google.com/file/d/1Tnu4JDkcEMLHe4bxl7FD6RxLwzwHHG4s/view";
+
 const aiDay = (n: number, title: string) => ({
   day: n,
   title,
@@ -567,46 +568,113 @@ const ai: TeacherCourse = {
   coverSlideFormat: "manus",
   coverSlideNote: "本課程使用一份綜合 PDF（涵蓋 8 週主題），各週尚未拆分獨立投影片。",
   weeks: [
-    {
-      week: 1,
-      title: "AI 繪圖入門",
-      days: [aiDay(1, "Day 1"), aiDay(2, "Day 2"), aiDay(3, "Day 3"), aiDay(4, "Day 4")],
-    },
-    {
-      week: 2,
-      title: "AI 漫畫創作",
-      days: [aiDay(1, "Day 1"), aiDay(2, "Day 2"), aiDay(3, "Day 3"), aiDay(4, "Day 4")],
-    },
-    {
-      week: 3,
-      title: "AI 圖像進階",
-      days: [aiDay(1, "Day 1"), aiDay(2, "Day 2"), aiDay(3, "Day 3"), aiDay(4, "Day 4")],
-    },
-    {
-      week: 4,
-      title: "AI 故事生成",
-      days: [aiDay(1, "Day 1"), aiDay(2, "Day 2"), aiDay(3, "Day 3"), aiDay(4, "Day 4")],
-    },
-    {
-      week: 5,
-      title: "AI Podcast 製作",
-      days: [aiDay(1, "Day 1"), aiDay(2, "Day 2"), aiDay(3, "Day 3"), aiDay(4, "Day 4")],
-    },
-    {
-      week: 6,
-      title: "AI 影片",
-      days: [aiDay(1, "Day 1"), aiDay(2, "Day 2"), aiDay(3, "Day 3"), aiDay(4, "Day 4")],
-    },
-    {
-      week: 7,
-      title: "AI 創作整合",
-      days: [aiDay(1, "Day 1"), aiDay(2, "Day 2"), aiDay(3, "Day 3"), aiDay(4, "Day 4")],
-    },
-    {
-      week: 8,
-      title: "成果發表",
-      days: [aiDay(1, "Day 1"), aiDay(2, "Day 2"), aiDay(3, "Day 3"), aiDay(4, "Day 4")],
-    },
+    { week: 1, title: "AI 繪圖入門", days: [aiDay(1, "Day 1"), aiDay(2, "Day 2"), aiDay(3, "Day 3"), aiDay(4, "Day 4")] },
+    { week: 2, title: "AI 漫畫創作", days: [aiDay(1, "Day 1"), aiDay(2, "Day 2"), aiDay(3, "Day 3"), aiDay(4, "Day 4")] },
+    { week: 3, title: "AI 圖像進階", days: [aiDay(1, "Day 1"), aiDay(2, "Day 2"), aiDay(3, "Day 3"), aiDay(4, "Day 4")] },
+    { week: 4, title: "AI 故事生成", days: [aiDay(1, "Day 1"), aiDay(2, "Day 2"), aiDay(3, "Day 3"), aiDay(4, "Day 4")] },
+    { week: 5, title: "AI Podcast 製作", days: [aiDay(1, "Day 1"), aiDay(2, "Day 2"), aiDay(3, "Day 3"), aiDay(4, "Day 4")] },
+    { week: 6, title: "AI 影片", days: [aiDay(1, "Day 1"), aiDay(2, "Day 2"), aiDay(3, "Day 3"), aiDay(4, "Day 4")] },
+    { week: 7, title: "AI 創作整合", days: [aiDay(1, "Day 1"), aiDay(2, "Day 2"), aiDay(3, "Day 3"), aiDay(4, "Day 4")] },
+    { week: 8, title: "成果發表", days: [aiDay(1, "Day 1"), aiDay(2, "Day 2"), aiDay(3, "Day 3"), aiDay(4, "Day 4")] },
+  ],
+};
+
+// ---------- 7-10. 低年級 4 堂課（連結至 Manus 教學平台） ----------
+// 完整 8 週教材在 https://summercw1-janfbwvh.manus.space
+// 老師按進每堂課可在 Manus 頁首切換 W1-W8 不同週次主題
+const LOW_NOTE = "本課程教材完整放在 Manus 教學平台。點下方按鈕進入後，可在 Manus 頁首切換 W1-W8 不同週次主題。";
+const lowDay = (title: string) => ({
+  day: 1,
+  title,
+  slideUrl: "",
+  slideFormat: "none" as const,
+});
+
+const animalLow: TeacherCourse = {
+  id: "animal",
+  name: "動物星球探險隊",
+  icon: "🐾",
+  color: "#4CAF50",
+  bgColor: "#E8F5E9",
+  hasMaterials: true,
+  coverSlideUrl: "https://summercw1-janfbwvh.manus.space/course/w1-animal",
+  coverSlideFormat: "manus",
+  coverSlideNote: LOW_NOTE,
+  weeks: [
+    { week: 1, title: "昆蟲微觀世界", days: [lowDay("星期一")] },
+    { week: 2, title: "海洋世界", days: [lowDay("星期一")] },
+    { week: 3, title: "恐龍時代", days: [lowDay("星期一")] },
+    { week: 4, title: "夜行動物大探索", days: [lowDay("星期一")] },
+    { week: 5, title: "鳥類觀察家", days: [lowDay("星期一")] },
+    { week: 6, title: "兩棲動物探險", days: [lowDay("星期一")] },
+    { week: 7, title: "爬行動物大發現", days: [lowDay("星期一")] },
+    { week: 8, title: "哺乳動物好朋友", days: [lowDay("星期一")] },
+  ],
+};
+
+const chefLow: TeacherCourse = {
+  id: "chef",
+  name: "小小廚神體驗",
+  icon: "🍳",
+  color: "#E65100",
+  bgColor: "#FFF3E0",
+  hasMaterials: true,
+  coverSlideUrl: "https://summercw1-janfbwvh.manus.space/course/w1-cooking",
+  coverSlideFormat: "manus",
+  coverSlideNote: LOW_NOTE,
+  weeks: [
+    { week: 1, title: "彩色造型湯圓", days: [lowDay("星期三")] },
+    { week: 2, title: "水果漸層氣泡飲", days: [lowDay("星期三")] },
+    { week: 3, title: "迷你杯子蛋糕", days: [lowDay("星期三")] },
+    { week: 4, title: "創意飯糰", days: [lowDay("星期三")] },
+    { week: 5, title: "手工壓模餅乾", days: [lowDay("星期三")] },
+    { week: 6, title: "彩色水果串", days: [lowDay("星期三")] },
+    { week: 7, title: "創意迷你三明治", days: [lowDay("星期三")] },
+    { week: 8, title: "迷你手作 Pizza", days: [lowDay("星期三")] },
+  ],
+};
+
+const scienceLow: TeacherCourse = {
+  id: "science",
+  name: "魔法科學實驗室",
+  icon: "🧪",
+  color: "#7B1FA2",
+  bgColor: "#F3E5F5",
+  hasMaterials: true,
+  coverSlideUrl: "https://summercw1-janfbwvh.manus.space/course/w1-science",
+  coverSlideFormat: "manus",
+  coverSlideNote: LOW_NOTE,
+  weeks: [
+    { week: 1, title: "火山爆發與酸鹼魔術", days: [lowDay("星期四")] },
+    { week: 2, title: "史萊姆製作", days: [lowDay("星期四")] },
+    { week: 3, title: "磁力與靜電", days: [lowDay("星期四")] },
+    { week: 4, title: "水的魔法", days: [lowDay("星期四")] },
+    { week: 5, title: "光與影的秘密", days: [lowDay("星期四")] },
+    { week: 6, title: "空氣的力量", days: [lowDay("星期四")] },
+    { week: 7, title: "聲音大探索", days: [lowDay("星期四")] },
+    { week: 8, title: "重力與平衡", days: [lowDay("星期四")] },
+  ],
+};
+
+const storyLow: TeacherCourse = {
+  id: "story",
+  name: "繪本魔法與手作",
+  icon: "📖",
+  color: "#1565C0",
+  bgColor: "#E3F2FD",
+  hasMaterials: true,
+  coverSlideUrl: "https://summercw1-janfbwvh.manus.space/course/w1-storybook",
+  coverSlideFormat: "manus",
+  coverSlideNote: LOW_NOTE,
+  weeks: [
+    { week: 1, title: "勇氣大冒險", days: [lowDay("星期五")] },
+    { week: 2, title: "友誼的魔法", days: [lowDay("星期五")] },
+    { week: 3, title: "情緒小怪獸", days: [lowDay("星期五")] },
+    { week: 4, title: "奇妙的大自然", days: [lowDay("星期五")] },
+    { week: 5, title: "家人的愛", days: [lowDay("星期五")] },
+    { week: 6, title: "小小創造家", days: [lowDay("星期五")] },
+    { week: 7, title: "友善小天使", days: [lowDay("星期五")] },
+    { week: 8, title: "成長的軌跡", days: [lowDay("星期五")] },
   ],
 };
 
@@ -617,6 +685,10 @@ export const teacherCourses: TeacherCourse[] = [
   stopmotion,
   art,
   ai,
+  animalLow,
+  chefLow,
+  scienceLow,
+  storyLow,
 ];
 
 export function getTeacherCourse(id: string): TeacherCourse | undefined {
@@ -635,4 +707,3 @@ export function getMarkdown(key: string | undefined): string {
   if (!key) return "";
   return (mdModules as Record<string, string>)[key] ?? "";
 }
-
