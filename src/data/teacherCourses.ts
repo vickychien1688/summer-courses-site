@@ -579,15 +579,24 @@ const ai: TeacherCourse = {
   ],
 };
 
-// ---------- 7-10. 低年級 4 堂課（連結至 Manus 教學平台） ----------
+// ---------- 7-10. 低年級 4 堂課（每週連結到 Manus 該週的教學頁） ----------
 // 完整 8 週教材在 https://summercw1-janfbwvh.manus.space
-// 老師按進每堂課可在 Manus 頁首切換 W1-W8 不同週次主題
-const LOW_NOTE = "本課程教材完整放在 Manus 教學平台。點下方按鈕進入後，可在 Manus 頁首切換 W1-W8 不同週次主題。";
-const lowDay = (title: string) => ({
-  day: 1,
+// 每週的「開啟投影片」按鈕都直接連到 Manus 對應的那一週
+const LOW_NOTE = "本課程教材完整放在 Manus 教學平台，下方每一週都直接連到 Manus 對應週次的教學頁。";
+const MANUS_BASE = "https://summercw1-janfbwvh.manus.space/course";
+
+// 低年級每週的工廠：產生包含 Manus 連結的 Week
+const lowWeek = (
+  week: number,
+  title: string,
+  weekday: string,
+  slug: string
+): Week => ({
+  week,
   title,
-  slideUrl: "",
-  slideFormat: "none" as const,
+  days: [{ day: 1, title: weekday, slideUrl: "", slideFormat: "none" }],
+  slideUrl: `${MANUS_BASE}/w${week}-${slug}`,
+  slideFormat: "manus",
 });
 
 const animalLow: TeacherCourse = {
@@ -597,18 +606,18 @@ const animalLow: TeacherCourse = {
   color: "#4CAF50",
   bgColor: "#E8F5E9",
   hasMaterials: true,
-  coverSlideUrl: "https://summercw1-janfbwvh.manus.space/course/w1-animal",
+  coverSlideUrl: `${MANUS_BASE}/w1-animal`,
   coverSlideFormat: "manus",
   coverSlideNote: LOW_NOTE,
   weeks: [
-    { week: 1, title: "昆蟲微觀世界", days: [lowDay("星期一")] },
-    { week: 2, title: "海洋世界", days: [lowDay("星期一")] },
-    { week: 3, title: "恐龍時代", days: [lowDay("星期一")] },
-    { week: 4, title: "夜行動物大探索", days: [lowDay("星期一")] },
-    { week: 5, title: "鳥類觀察家", days: [lowDay("星期一")] },
-    { week: 6, title: "兩棲動物探險", days: [lowDay("星期一")] },
-    { week: 7, title: "爬行動物大發現", days: [lowDay("星期一")] },
-    { week: 8, title: "哺乳動物好朋友", days: [lowDay("星期一")] },
+    lowWeek(1, "昆蟲微觀世界", "星期一", "animal"),
+    lowWeek(2, "海洋世界", "星期一", "animal"),
+    lowWeek(3, "恐龍時代", "星期一", "animal"),
+    lowWeek(4, "夜行動物大探索", "星期一", "animal"),
+    lowWeek(5, "鳥類觀察家", "星期一", "animal"),
+    lowWeek(6, "兩棲動物探險", "星期一", "animal"),
+    lowWeek(7, "爬行動物大發現", "星期一", "animal"),
+    lowWeek(8, "哺乳動物好朋友", "星期一", "animal"),
   ],
 };
 
@@ -619,18 +628,18 @@ const chefLow: TeacherCourse = {
   color: "#E65100",
   bgColor: "#FFF3E0",
   hasMaterials: true,
-  coverSlideUrl: "https://summercw1-janfbwvh.manus.space/course/w1-cooking",
+  coverSlideUrl: `${MANUS_BASE}/w1-cooking`,
   coverSlideFormat: "manus",
   coverSlideNote: LOW_NOTE,
   weeks: [
-    { week: 1, title: "彩色造型湯圓", days: [lowDay("星期三")] },
-    { week: 2, title: "水果漸層氣泡飲", days: [lowDay("星期三")] },
-    { week: 3, title: "迷你杯子蛋糕", days: [lowDay("星期三")] },
-    { week: 4, title: "創意飯糰", days: [lowDay("星期三")] },
-    { week: 5, title: "手工壓模餅乾", days: [lowDay("星期三")] },
-    { week: 6, title: "彩色水果串", days: [lowDay("星期三")] },
-    { week: 7, title: "創意迷你三明治", days: [lowDay("星期三")] },
-    { week: 8, title: "迷你手作 Pizza", days: [lowDay("星期三")] },
+    lowWeek(1, "彩色造型湯圓", "星期三", "cooking"),
+    lowWeek(2, "水果漸層氣泡飲", "星期三", "cooking"),
+    lowWeek(3, "迷你杯子蛋糕", "星期三", "cooking"),
+    lowWeek(4, "創意飯糰", "星期三", "cooking"),
+    lowWeek(5, "手工壓模餅乾", "星期三", "cooking"),
+    lowWeek(6, "彩色水果串", "星期三", "cooking"),
+    lowWeek(7, "創意迷你三明治", "星期三", "cooking"),
+    lowWeek(8, "迷你手作 Pizza", "星期三", "cooking"),
   ],
 };
 
@@ -641,18 +650,18 @@ const scienceLow: TeacherCourse = {
   color: "#7B1FA2",
   bgColor: "#F3E5F5",
   hasMaterials: true,
-  coverSlideUrl: "https://summercw1-janfbwvh.manus.space/course/w1-science",
+  coverSlideUrl: `${MANUS_BASE}/w1-science`,
   coverSlideFormat: "manus",
   coverSlideNote: LOW_NOTE,
   weeks: [
-    { week: 1, title: "火山爆發與酸鹼魔術", days: [lowDay("星期四")] },
-    { week: 2, title: "史萊姆製作", days: [lowDay("星期四")] },
-    { week: 3, title: "磁力與靜電", days: [lowDay("星期四")] },
-    { week: 4, title: "水的魔法", days: [lowDay("星期四")] },
-    { week: 5, title: "光與影的秘密", days: [lowDay("星期四")] },
-    { week: 6, title: "空氣的力量", days: [lowDay("星期四")] },
-    { week: 7, title: "聲音大探索", days: [lowDay("星期四")] },
-    { week: 8, title: "重力與平衡", days: [lowDay("星期四")] },
+    lowWeek(1, "火山爆發與酸鹼魔術", "星期四", "science"),
+    lowWeek(2, "史萊姆製作", "星期四", "science"),
+    lowWeek(3, "磁力與靜電", "星期四", "science"),
+    lowWeek(4, "水的魔法", "星期四", "science"),
+    lowWeek(5, "光與影的秘密", "星期四", "science"),
+    lowWeek(6, "空氣的力量", "星期四", "science"),
+    lowWeek(7, "聲音大探索", "星期四", "science"),
+    lowWeek(8, "重力與平衡", "星期四", "science"),
   ],
 };
 
@@ -663,18 +672,18 @@ const storyLow: TeacherCourse = {
   color: "#1565C0",
   bgColor: "#E3F2FD",
   hasMaterials: true,
-  coverSlideUrl: "https://summercw1-janfbwvh.manus.space/course/w1-storybook",
+  coverSlideUrl: `${MANUS_BASE}/w1-storybook`,
   coverSlideFormat: "manus",
   coverSlideNote: LOW_NOTE,
   weeks: [
-    { week: 1, title: "勇氣大冒險", days: [lowDay("星期五")] },
-    { week: 2, title: "友誼的魔法", days: [lowDay("星期五")] },
-    { week: 3, title: "情緒小怪獸", days: [lowDay("星期五")] },
-    { week: 4, title: "奇妙的大自然", days: [lowDay("星期五")] },
-    { week: 5, title: "家人的愛", days: [lowDay("星期五")] },
-    { week: 6, title: "小小創造家", days: [lowDay("星期五")] },
-    { week: 7, title: "友善小天使", days: [lowDay("星期五")] },
-    { week: 8, title: "成長的軌跡", days: [lowDay("星期五")] },
+    lowWeek(1, "勇氣大冒險", "星期五", "storybook"),
+    lowWeek(2, "友誼的魔法", "星期五", "storybook"),
+    lowWeek(3, "情緒小怪獸", "星期五", "storybook"),
+    lowWeek(4, "奇妙的大自然", "星期五", "storybook"),
+    lowWeek(5, "家人的愛", "星期五", "storybook"),
+    lowWeek(6, "小小創造家", "星期五", "storybook"),
+    lowWeek(7, "友善小天使", "星期五", "storybook"),
+    lowWeek(8, "成長的軌跡", "星期五", "storybook"),
   ],
 };
 
