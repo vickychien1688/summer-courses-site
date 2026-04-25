@@ -329,14 +329,112 @@ const stopmotion: TeacherCourse = {
   weeks: [],
 };
 
+// ---------- 4. 韓系美學手作坊（W1-W8 主題、共用一份總投影片） ----------
+const ART_MAIN_PDF = "/slides/art/main.pdf";
+const artDay = (n: number, title: string) => ({
+  day: n,
+  title,
+  slideUrl: ART_MAIN_PDF,
+  slideFormat: "pdf" as const,
+});
+
 const art: TeacherCourse = {
   id: "art",
   name: "韓系美學手作坊",
   icon: "🎨",
   color: "#880E4F",
   bgColor: "#FCE4EC",
-  hasMaterials: false,
-  weeks: [],
+  hasMaterials: true,
+  overviewKeys: [
+    "/src/content/art/overview/總覽與備課指南.md",
+    "/src/content/art/overview/完整課程手冊.md",
+    "/src/content/art/overview/W1-W4_詳細教案.md",
+    "/src/content/art/overview/W5-W8_詳細教案.md",
+    "/src/content/art/overview/材料採購清單.md",
+    "/src/content/art/overview/學習單框架.md",
+  ],
+  weeks: [
+    {
+      week: 1,
+      title: "奶油膠夢幻梳妝組",
+      days: [
+        artDay(1, "美學啟發與基礎練習"),
+        artDay(2, "設計規劃與隨身鏡製作"),
+        artDay(3, "氣墊梳製作與細節點綴"),
+        artDay(4, "包裝展示與明信片證書"),
+      ],
+    },
+    {
+      week: 2,
+      title: "海洋夢幻水晶球",
+      days: [
+        artDay(1, "美學啟發與基礎練習"),
+        artDay(2, "設計規劃與場景佈置"),
+        artDay(3, "灌水密封與細節點綴"),
+        artDay(4, "包裝展示與明信片證書"),
+      ],
+    },
+    {
+      week: 3,
+      title: "扭扭棒立體花束",
+      days: [
+        artDay(1, "美學啟發與基礎練習"),
+        artDay(2, "設計規劃與主體製作"),
+        artDay(3, "深度裝飾與細節"),
+        artDay(4, "包裝展示與明信片證書"),
+      ],
+    },
+    {
+      week: 4,
+      title: "石膏浮雕畫掛件",
+      days: [
+        artDay(1, "美學啟發與基礎練習"),
+        artDay(2, "設計規劃與主體製作"),
+        artDay(3, "深度裝飾與細節"),
+        artDay(4, "包裝展示與明信片證書"),
+      ],
+    },
+    {
+      week: 5,
+      title: "滴膠寶石與金屬書籤",
+      days: [
+        artDay(1, "Day 1"),
+        artDay(2, "Day 2"),
+        artDay(3, "Day 3"),
+        artDay(4, "Day 4"),
+      ],
+    },
+    {
+      week: 6,
+      title: "真皮皮革行李牌",
+      days: [
+        artDay(1, "Day 1"),
+        artDay(2, "Day 2"),
+        artDay(3, "Day 3"),
+        artDay(4, "Day 4"),
+      ],
+    },
+    {
+      week: 7,
+      title: "羊毛氈戳戳樂",
+      days: [
+        artDay(1, "Day 1"),
+        artDay(2, "Day 2"),
+        artDay(3, "Day 3"),
+        artDay(4, "Day 4"),
+      ],
+    },
+    {
+      week: 8,
+      title: "蘑菇皮革斜背包",
+      days: [
+        artDay(1, "Day 1"),
+        artDay(2, "Day 2"),
+        artDay(3, "Day 3"),
+        artDay(4, "Day 4"),
+      ],
+    },
+  ],
 };
 
 const ai: TeacherCourse = {
