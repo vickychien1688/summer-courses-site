@@ -1,4 +1,4 @@
-import { useRoute } from "wouter";
+import { Link, useRoute } from "wouter";
 import { ExternalLink, FileText } from "lucide-react";
 import TeacherShell from "@/components/TeacherShell";
 import Markdown from "@/components/Markdown";
@@ -21,6 +21,11 @@ export default function TeacherDay() {
   const weekScript = getMarkdown(week.scriptKey);
   const script = dayScript || weekScript;
 
+  // 投影片：優先用日級，沒有的話降級到週級或課程級
+  const hasDaySlide = !!day.slideUrl;
+  const hasWeekSlide = !!week.slideUrl;
+  const hasCoverSlide = !!course.coverSlideUrl;
+
   return (
     <TeacherShell
       breadcrumbs={[
@@ -30,18 +35,18 @@ export default function TeacherDay() {
       ]}
       title={`Day ${day.day}｜${day.title}`}
     >
-      {/* 投影片區 */}
-      <section className="mb-6">
-        <div className="bg-white rounded-2xl shadow-sm p-5 flex items-center justify-between flex-wrap gap-3">
-          <div>
-            <div className="text-sm text-brand-brown/70 mb-1">
-              投影片（{labelForFormat(day.slideFormat)}）
+      {/* 投影片區 — 只有當日有自己的投影片才顯示 */}
+      {hasDaySlide && (
+        <section className="mb-6">
+          <div className="bg-white rounded-2xl shadow-sm p-5 flex items-center justify-between flex-wrap gap-3">
+            <div>
+              <div className="text-sm text-brand-brown/70 mb-1">
+                投影片（{labelForFormat(day.slideFormat)}）
+              </div>
+              <div className="font-semibold text-brand-brown">
+                W{week.week} Day{day.day}｜{day.title}
+              </div>
             </div>
-            <div className="font-semibold text-brand-brown">
-              W{week.week} Day{day.day}｜{day.title}
-            </div>
-          </div>
-          {day.slideUrl ? (
             <a
               href={day.slideUrl}
               target="_blank"
@@ -50,13 +55,50 @@ export default function TeacherDay() {
             >
               <ExternalLink size={14} /> 開啟投影片
             </a>
-          ) : (
-            <span className="text-sm text-stone-400 italic">
-              尚未提供連結
-            </span>
-          )}
-        </div>
-      </section>
+          </div>
+        </section>
+      )}
+
+      {/* 沒有日級但有週級投影片：顯示提示連回週首頁 */}
+      {!hasDaySlide && hasWeekSlide && (
+        <section className="mb-6">
+          <div className="rounded-2xl bg-stone-50 border border-stone-200 p-4 text-sm text-brand-brown/70 flex items-center gap-2 flex-wrap">
+            <span>📑</span>
+            <span>本日使用 W{week.week} 共用投影片，</span>
+            <Link
+              href={`/teacher/${course.id}/w/${week.week}`}
+              className="underline text-brand-orange hover:text-brand-orange/80"
+            >
+              到 W{week.week} 首頁開啟
+            </Link>
+          </div>
+        </section>
+      )}
+
+      {/* 沒有日級也沒週級但有課程級：顯示提示連回課程首頁 */}
+      {!hasDaySlide && !hasWeekSlide && hasCoverSlide && (
+        <section className="mb-6">
+          <div className="rounded-2xl bg-stone-50 border border-stone-200 p-4 text-sm text-brand-brown/70 flex items-center gap-2 flex-wrap">
+            <span>📑</span>
+            <span>本課程使用一份綜合投影片，</span>
+            <Link
+              href={`/teacher/${course.id}`}
+              className="underline text-brand-orange hover:text-brand-orange/80"
+            >
+              到課程首頁開啟
+            </Link>
+          </div>
+        </section>
+      )}
+
+      {/* 完全沒投影片 */}
+      {!hasDaySlide && !hasWeekSlide && !hasCoverSlide && (
+        <section className="mb-6">
+          <div className="rounded-2xl bg-stone-50 border border-stone-200 p-4 text-sm text-stone-400 italic text-center">
+            （本日投影片整理中）
+          </div>
+        </section>
+      )}
 
       {/* 教學腳本 */}
       {script ? (

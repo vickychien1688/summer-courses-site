@@ -32,6 +32,9 @@ export interface Week {
   days: Day[];
   /** import.meta.glob 取出 md 後存這裡 */
   scriptKey?: string;
+  /** 本週共用投影片（多日共用一份時填這裡，Day.slideUrl 留空） */
+  slideUrl?: string;
+  slideFormat?: SlideFormat;
 }
 
 export interface TeacherCourse {
@@ -44,6 +47,10 @@ export interface TeacherCourse {
   weeks: Week[];
   /** 課程總覽文件（md 檔的 key 列表） */
   overviewKeys?: string[];
+  /** 課程綜合投影片（整門課用一份時填這裡，Week.slideUrl 與 Day.slideUrl 都留空） */
+  coverSlideUrl?: string;
+  coverSlideFormat?: SlideFormat;
+  coverSlideNote?: string;
 }
 
 // ---------- 1. CSI 科學小偵探（完整 8 週，pptx 投影片） ----------
@@ -172,45 +179,53 @@ const country: TeacherCourse = {
       week: 1,
       title: "埃及｜法老密碼與金字塔力學",
       days: [
-        { day: 1, title: "Day 1", slideUrl: "/slides/country/W1.pdf", slideFormat: "pdf" },
-        { day: 2, title: "Day 2", slideUrl: "/slides/country/W1.pdf", slideFormat: "pdf" },
-        { day: 3, title: "Day 3", slideUrl: "/slides/country/W1.pdf", slideFormat: "pdf" },
-        { day: 4, title: "Day 4", slideUrl: "/slides/country/W1.pdf", slideFormat: "pdf" },
+        { day: 1, title: "Day 1", slideUrl: "", slideFormat: "none" },
+        { day: 2, title: "Day 2", slideUrl: "", slideFormat: "none" },
+        { day: 3, title: "Day 3", slideUrl: "", slideFormat: "none" },
+        { day: 4, title: "Day 4", slideUrl: "", slideFormat: "none" },
       ],
       scriptKey: "/src/content/country/w1/script.md",
+      slideUrl: "/slides/country/W1.pdf",
+      slideFormat: "pdf",
     },
     {
       week: 2,
       title: "日本｜傳統建築與和風美學",
       days: [
-        { day: 1, title: "Day 1", slideUrl: "/slides/country/W2.pdf", slideFormat: "pdf" },
-        { day: 2, title: "Day 2", slideUrl: "/slides/country/W2.pdf", slideFormat: "pdf" },
-        { day: 3, title: "Day 3", slideUrl: "/slides/country/W2.pdf", slideFormat: "pdf" },
-        { day: 4, title: "Day 4", slideUrl: "/slides/country/W2.pdf", slideFormat: "pdf" },
+        { day: 1, title: "Day 1", slideUrl: "", slideFormat: "none" },
+        { day: 2, title: "Day 2", slideUrl: "", slideFormat: "none" },
+        { day: 3, title: "Day 3", slideUrl: "", slideFormat: "none" },
+        { day: 4, title: "Day 4", slideUrl: "", slideFormat: "none" },
       ],
       scriptKey: "/src/content/country/w2/script.md",
+      slideUrl: "/slides/country/W2.pdf",
+      slideFormat: "pdf",
     },
     {
       week: 3,
       title: "英國｜機關齒輪與工業革命",
       days: [
-        { day: 1, title: "Day 1", slideUrl: "/slides/country/W3.pdf", slideFormat: "pdf" },
-        { day: 2, title: "Day 2", slideUrl: "/slides/country/W3.pdf", slideFormat: "pdf" },
-        { day: 3, title: "Day 3", slideUrl: "/slides/country/W3.pdf", slideFormat: "pdf" },
-        { day: 4, title: "Day 4", slideUrl: "/slides/country/W3.pdf", slideFormat: "pdf" },
+        { day: 1, title: "Day 1", slideUrl: "", slideFormat: "none" },
+        { day: 2, title: "Day 2", slideUrl: "", slideFormat: "none" },
+        { day: 3, title: "Day 3", slideUrl: "", slideFormat: "none" },
+        { day: 4, title: "Day 4", slideUrl: "", slideFormat: "none" },
       ],
       scriptKey: "/src/content/country/w3/script.md",
+      slideUrl: "/slides/country/W3.pdf",
+      slideFormat: "pdf",
     },
     {
       week: 4,
       title: "希臘｜城堡防禦與投石機工程",
       days: [
-        { day: 1, title: "Day 1", slideUrl: "/slides/country/W4.pdf", slideFormat: "pdf" },
-        { day: 2, title: "Day 2", slideUrl: "/slides/country/W4.pdf", slideFormat: "pdf" },
-        { day: 3, title: "Day 3", slideUrl: "/slides/country/W4.pdf", slideFormat: "pdf" },
-        { day: 4, title: "Day 4", slideUrl: "/slides/country/W4.pdf", slideFormat: "pdf" },
+        { day: 1, title: "Day 1", slideUrl: "", slideFormat: "none" },
+        { day: 2, title: "Day 2", slideUrl: "", slideFormat: "none" },
+        { day: 3, title: "Day 3", slideUrl: "", slideFormat: "none" },
+        { day: 4, title: "Day 4", slideUrl: "", slideFormat: "none" },
       ],
       scriptKey: "/src/content/country/w4/script.md",
+      slideUrl: "/slides/country/W4.pdf",
+      slideFormat: "pdf",
     },
     { week: 5, title: "（待整理）", days: [], scriptKey: undefined },
     { week: 6, title: "（待整理）", days: [], scriptKey: undefined },
@@ -426,8 +441,8 @@ const ART_MAIN_PDF = "/slides/art/main.pdf";
 const artDay = (n: number, title: string) => ({
   day: n,
   title,
-  slideUrl: ART_MAIN_PDF,
-  slideFormat: "pdf" as const,
+  slideUrl: "",
+  slideFormat: "none" as const,
 });
 
 const art: TeacherCourse = {
@@ -437,6 +452,9 @@ const art: TeacherCourse = {
   color: "#880E4F",
   bgColor: "#FCE4EC",
   hasMaterials: true,
+  coverSlideUrl: ART_MAIN_PDF,
+  coverSlideFormat: "pdf",
+  coverSlideNote: "本課程使用一份綜合教材 PDF，涵蓋 W1-W8 全部主題。",
   overviewKeys: [
     "/src/content/art/overview/總覽與備課指南.md",
     "/src/content/art/overview/完整課程手冊.md",
@@ -534,8 +552,8 @@ const AI_DRIVE = "https://drive.google.com/file/d/1Tnu4JDkcEMLHe4bxl7FD6RxLwzwHH
 const aiDay = (n: number, title: string) => ({
   day: n,
   title,
-  slideUrl: AI_DRIVE,
-  slideFormat: "manus" as const,
+  slideUrl: "",
+  slideFormat: "none" as const,
 });
 
 const ai: TeacherCourse = {
@@ -545,6 +563,9 @@ const ai: TeacherCourse = {
   color: "#4A148C",
   bgColor: "#EDE7F6",
   hasMaterials: true,
+  coverSlideUrl: AI_DRIVE,
+  coverSlideFormat: "manus",
+  coverSlideNote: "本課程使用一份綜合 PDF（涵蓋 8 週主題），各週尚未拆分獨立投影片。",
   weeks: [
     {
       week: 1,

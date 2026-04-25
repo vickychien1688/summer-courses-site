@@ -1,5 +1,5 @@
 import { Link, useRoute } from "wouter";
-import { FileText } from "lucide-react";
+import { FileText, ExternalLink } from "lucide-react";
 import TeacherShell from "@/components/TeacherShell";
 import Markdown from "@/components/Markdown";
 import {
@@ -19,6 +19,38 @@ export default function TeacherCourse() {
       breadcrumbs={[{ href: "/teacher/dashboard", label: "所有課程" }]}
       title={`${course.icon} ${course.name}`}
     >
+      {/* 課程綜合投影片（如果是整門課用一份的話） */}
+      {course.coverSlideUrl && (
+        <section className="mb-8">
+          <div
+            className="rounded-2xl shadow-sm p-5 flex items-center justify-between flex-wrap gap-3"
+            style={{ backgroundColor: course.bgColor }}
+          >
+            <div>
+              <div
+                className="text-sm font-semibold mb-1"
+                style={{ color: course.color }}
+              >
+                📑 課程綜合投影片
+              </div>
+              {course.coverSlideNote && (
+                <div className="text-sm text-brand-brown/80 leading-relaxed">
+                  {course.coverSlideNote}
+                </div>
+              )}
+            </div>
+            <a
+              href={course.coverSlideUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-brand-orange text-white text-sm font-medium hover:bg-brand-orange/90"
+            >
+              <ExternalLink size={14} /> 開啟投影片
+            </a>
+          </div>
+        </section>
+      )}
+
       {/* 課程總覽文件 */}
       {course.overviewKeys && course.overviewKeys.length > 0 && (
         <section className="mb-8">
