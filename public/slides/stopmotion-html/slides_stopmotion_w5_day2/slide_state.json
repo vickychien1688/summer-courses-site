@@ -1,0 +1,132 @@
+{
+  "project_info": {
+    "title": "進階運鏡實作",
+    "created": 1775033322.4618993,
+    "last_updated": 1775033571.4502783,
+    "total_slides": 10
+  },
+  "slides": [
+    {
+      "id": "cover",
+      "state": "edited",
+      "pageNum": 1
+    },
+    {
+      "id": "review_camera_movement",
+      "state": "edited",
+      "pageNum": 2
+    },
+    {
+      "id": "how_to_pan_tilt",
+      "state": "edited",
+      "pageNum": 3
+    },
+    {
+      "id": "pan_tilt_practice",
+      "state": "edited",
+      "pageNum": 4
+    },
+    {
+      "id": "how_to_zoom",
+      "state": "edited",
+      "pageNum": 5
+    },
+    {
+      "id": "break_time",
+      "state": "edited",
+      "pageNum": 6
+    },
+    {
+      "id": "zoom_practice",
+      "state": "edited",
+      "pageNum": 7
+    },
+    {
+      "id": "combine_movements",
+      "state": "edited",
+      "pageNum": 8
+    },
+    {
+      "id": "showcase",
+      "state": "edited",
+      "pageNum": 9
+    },
+    {
+      "id": "tomorrow_preview",
+      "state": "edited",
+      "pageNum": 10
+    }
+  ],
+  "outline": [
+    {
+      "id": "cover",
+      "title": "進階運鏡實作",
+      "summary": "課程開場與主題介紹",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "review_camera_movement",
+      "title": "複習運鏡與視角",
+      "summary": "回顧昨天學到的技巧",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "how_to_pan_tilt",
+      "title": "如何拍出平移與俯仰？",
+      "summary": "攝影機不動，只轉動鏡頭",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "pan_tilt_practice",
+      "title": "平移與俯仰練習",
+      "summary": "試著拍一段平移或俯仰的動畫",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "how_to_zoom",
+      "title": "如何拍出推近與拉遠？",
+      "summary": "攝影機慢慢靠近或遠離角色",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "break_time",
+      "title": "休息一下！",
+      "summary": "中場休息時間",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "zoom_practice",
+      "title": "推近與拉遠練習",
+      "summary": "試著拍一段推近或拉遠的動畫",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "combine_movements",
+      "title": "組合運鏡",
+      "summary": "把不同的運鏡結合在一起",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "showcase",
+      "title": "作品分享",
+      "summary": "展示大家拍出的進階運鏡動畫",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "tomorrow_preview",
+      "title": "明天預告 — 第一人稱視角",
+      "summary": "預告明天的課程內容",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    }
+  ]
+}

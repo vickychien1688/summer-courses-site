@@ -1,0 +1,132 @@
+{
+  "project_info": {
+    "title": "認識運鏡與視角",
+    "created": 1775033017.6089356,
+    "last_updated": 1775033302.004706,
+    "total_slides": 10
+  },
+  "slides": [
+    {
+      "id": "cover",
+      "state": "edited",
+      "pageNum": 1
+    },
+    {
+      "id": "what_is_camera_movement",
+      "state": "edited",
+      "pageNum": 2
+    },
+    {
+      "id": "pan_and_tilt",
+      "state": "edited",
+      "pageNum": 3
+    },
+    {
+      "id": "zoom_in_out",
+      "state": "edited",
+      "pageNum": 4
+    },
+    {
+      "id": "camera_angles",
+      "state": "edited",
+      "pageNum": 5
+    },
+    {
+      "id": "break_time",
+      "state": "edited",
+      "pageNum": 6
+    },
+    {
+      "id": "high_low_angle",
+      "state": "edited",
+      "pageNum": 7
+    },
+    {
+      "id": "bird_eye_view",
+      "state": "edited",
+      "pageNum": 8
+    },
+    {
+      "id": "angle_practice",
+      "state": "edited",
+      "pageNum": 9
+    },
+    {
+      "id": "tomorrow_preview",
+      "state": "edited",
+      "pageNum": 10
+    }
+  ],
+  "outline": [
+    {
+      "id": "cover",
+      "title": "認識運鏡與視角",
+      "summary": "課程開場與主題介紹",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "what_is_camera_movement",
+      "title": "什麼是運鏡？",
+      "summary": "攝影機的移動方式",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "pan_and_tilt",
+      "title": "平移 (Pan) 與 俯仰 (Tilt)",
+      "summary": "攝影機左右轉和上下點頭",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "zoom_in_out",
+      "title": "推近 (Zoom In) 與 拉遠 (Zoom Out)",
+      "summary": "畫面變大和變小",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "camera_angles",
+      "title": "什麼是視角？",
+      "summary": "攝影機看角色的角度",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "break_time",
+      "title": "休息一下！",
+      "summary": "中場休息時間",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "high_low_angle",
+      "title": "俯角與仰角",
+      "summary": "從上往下看和從下往上看",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "bird_eye_view",
+      "title": "鳥瞰視角",
+      "summary": "像小鳥一樣從正上方看",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "angle_practice",
+      "title": "視角練習",
+      "summary": "用平板試著拍出不同的視角",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "tomorrow_preview",
+      "title": "明天預告 — 進階運鏡實作",
+      "summary": "預告明天的課程內容",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    }
+  ]
+}

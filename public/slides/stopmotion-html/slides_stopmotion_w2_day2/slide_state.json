@@ -1,0 +1,144 @@
+{
+  "project_info": {
+    "title": "角色的表情與變形",
+    "created": 1775029642.9562814,
+    "last_updated": 1775029897.882373,
+    "total_slides": 11
+  },
+  "slides": [
+    {
+      "id": "cover",
+      "state": "edited",
+      "pageNum": 1
+    },
+    {
+      "id": "facial_expressions",
+      "state": "edited",
+      "pageNum": 2
+    },
+    {
+      "id": "make_expressions",
+      "state": "edited",
+      "pageNum": 3
+    },
+    {
+      "id": "expression_practice",
+      "state": "edited",
+      "pageNum": 4
+    },
+    {
+      "id": "what_is_squash_stretch",
+      "state": "edited",
+      "pageNum": 5
+    },
+    {
+      "id": "squash_stretch_demo",
+      "state": "edited",
+      "pageNum": 6
+    },
+    {
+      "id": "break_time",
+      "state": "edited",
+      "pageNum": 7
+    },
+    {
+      "id": "squash_stretch_practice",
+      "state": "edited",
+      "pageNum": 8
+    },
+    {
+      "id": "character_squash_stretch",
+      "state": "edited",
+      "pageNum": 9
+    },
+    {
+      "id": "showcase",
+      "state": "edited",
+      "pageNum": 10
+    },
+    {
+      "id": "tomorrow_preview",
+      "state": "edited",
+      "pageNum": 11
+    }
+  ],
+  "outline": [
+    {
+      "id": "cover",
+      "title": "角色的表情與變形",
+      "summary": "課程開場與主題介紹",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "facial_expressions",
+      "title": "認識基本表情",
+      "summary": "喜、怒、哀、樂的特徵",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "make_expressions",
+      "title": "用黏土做表情",
+      "summary": "改變眉毛和嘴巴的形狀",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "expression_practice",
+      "title": "表情變換練習",
+      "summary": "拍攝角色從笑變哭的過程",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "what_is_squash_stretch",
+      "title": "什麼是擠壓與拉伸？",
+      "summary": "介紹動畫的經典法則",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "squash_stretch_demo",
+      "title": "擠壓與拉伸示範",
+      "summary": "球掉到地上的變形過程",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "break_time",
+      "title": "休息一下！",
+      "summary": "中場休息時間",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "squash_stretch_practice",
+      "title": "變形拍攝練習",
+      "summary": "拍攝一顆彈跳的黏土球",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "character_squash_stretch",
+      "title": "角色變形應用",
+      "summary": "讓角色跳躍時加上變形效果",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "showcase",
+      "title": "成果放映",
+      "summary": "各組播放今天的拍攝成果",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "tomorrow_preview",
+      "title": "明天預告 — 角色互動與對話",
+      "summary": "預告明天的課程內容",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    }
+  ]
+}

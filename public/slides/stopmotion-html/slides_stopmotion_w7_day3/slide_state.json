@@ -1,0 +1,132 @@
+{
+  "project_info": {
+    "title": "走路與跑步",
+    "created": 1775036925.650287,
+    "last_updated": 1775037136.0033858,
+    "total_slides": 10
+  },
+  "slides": [
+    {
+      "id": "cover",
+      "state": "edited",
+      "pageNum": 1
+    },
+    {
+      "id": "why_walking_is_hard",
+      "state": "edited",
+      "pageNum": 2
+    },
+    {
+      "id": "walking_cycle",
+      "state": "edited",
+      "pageNum": 3
+    },
+    {
+      "id": "four_key_poses",
+      "state": "edited",
+      "pageNum": 4
+    },
+    {
+      "id": "how_to_shoot_walking",
+      "state": "edited",
+      "pageNum": 5
+    },
+    {
+      "id": "practice_time_walk",
+      "state": "edited",
+      "pageNum": 6
+    },
+    {
+      "id": "break_time",
+      "state": "edited",
+      "pageNum": 7
+    },
+    {
+      "id": "running_cycle",
+      "state": "edited",
+      "pageNum": 8
+    },
+    {
+      "id": "showcase",
+      "state": "edited",
+      "pageNum": 9
+    },
+    {
+      "id": "tomorrow_preview",
+      "state": "edited",
+      "pageNum": 10
+    }
+  ],
+  "outline": [
+    {
+      "id": "cover",
+      "title": "走路與跑步",
+      "summary": "課程開場與主題介紹",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "why_walking_is_hard",
+      "title": "為什麼走路很難拍？",
+      "summary": "需要平衡和重心的轉移",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "walking_cycle",
+      "title": "走路的循環 (Walk Cycle)",
+      "summary": "認識走路的四個關鍵動作",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "four_key_poses",
+      "title": "走路的四個關鍵姿勢",
+      "summary": "接觸、下降、經過、最高點",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "how_to_shoot_walking",
+      "title": "如何拍攝走路？",
+      "summary": "利用骨架保持平衡，慢慢移動",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "practice_time_walk",
+      "title": "實作時間：拍一段走路",
+      "summary": "試著讓黏土人走幾步路",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "break_time",
+      "title": "休息一下！",
+      "summary": "中場休息時間",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "running_cycle",
+      "title": "跑步的循環 (Run Cycle)",
+      "summary": "跑步和走路有什麼不同？",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "showcase",
+      "title": "作品分享",
+      "summary": "展示大家拍出的走路與跑步動畫",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "tomorrow_preview",
+      "title": "明天預告 — 進階黏土綜合挑戰",
+      "summary": "預告明天的課程內容",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    }
+  ]
+}

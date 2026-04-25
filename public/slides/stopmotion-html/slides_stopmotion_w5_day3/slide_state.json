@@ -1,0 +1,132 @@
+{
+  "project_info": {
+    "title": "第一人稱視角",
+    "created": 1775033592.7558057,
+    "last_updated": 1775033978.3434327,
+    "total_slides": 10
+  },
+  "slides": [
+    {
+      "id": "cover",
+      "state": "edited",
+      "pageNum": 1
+    },
+    {
+      "id": "what_is_pov",
+      "state": "edited",
+      "pageNum": 2
+    },
+    {
+      "id": "pov_examples",
+      "state": "edited",
+      "pageNum": 3
+    },
+    {
+      "id": "how_to_shoot_pov",
+      "state": "edited",
+      "pageNum": 4
+    },
+    {
+      "id": "pov_practice",
+      "state": "edited",
+      "pageNum": 5
+    },
+    {
+      "id": "break_time",
+      "state": "edited",
+      "pageNum": 6
+    },
+    {
+      "id": "add_hands",
+      "state": "edited",
+      "pageNum": 7
+    },
+    {
+      "id": "interact_with_objects",
+      "state": "edited",
+      "pageNum": 8
+    },
+    {
+      "id": "showcase",
+      "state": "edited",
+      "pageNum": 9
+    },
+    {
+      "id": "tomorrow_preview",
+      "state": "edited",
+      "pageNum": 10
+    }
+  ],
+  "outline": [
+    {
+      "id": "cover",
+      "title": "第一人稱視角",
+      "summary": "課程開場與主題介紹",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "what_is_pov",
+      "title": "什麼是第一人稱視角 (POV)？",
+      "summary": "讓觀眾變成主角的眼睛",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "pov_examples",
+      "title": "POV 的例子",
+      "summary": "看出去的手、拿東西的視角",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "how_to_shoot_pov",
+      "title": "如何拍出 POV？",
+      "summary": "把攝影機放在角色的位置",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "pov_practice",
+      "title": "POV 拍攝練習",
+      "summary": "試著拍一段第一人稱視角的動畫",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "break_time",
+      "title": "休息一下！",
+      "summary": "中場休息時間",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "add_hands",
+      "title": "加入角色的手",
+      "summary": "讓 POV 更有真實感",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "interact_with_objects",
+      "title": "與物品互動",
+      "summary": "用 POV 視角拿東西、開門",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "showcase",
+      "title": "作品分享",
+      "summary": "展示大家拍出的 POV 動畫",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "tomorrow_preview",
+      "title": "明天預告 — 運鏡綜合挑戰",
+      "summary": "預告明天的課程內容",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    }
+  ]
+}

@@ -127,6 +127,8 @@ function labelForFormat(f: string) {
       return "圖片投影片";
     case "manus":
       return "Google Drive";
+    case "html":
+      return "互動式投影片";
     case "none":
       return "（投影片整理中）";
     default:

@@ -1,0 +1,132 @@
+{
+  "project_info": {
+    "title": "進階黏土綜合挑戰",
+    "created": 1775037155.5207253,
+    "last_updated": 1775037446.6437256,
+    "total_slides": 10
+  },
+  "slides": [
+    {
+      "id": "cover",
+      "state": "edited",
+      "pageNum": 1
+    },
+    {
+      "id": "review_advanced_clay",
+      "state": "edited",
+      "pageNum": 2
+    },
+    {
+      "id": "challenge_rules",
+      "state": "edited",
+      "pageNum": 3
+    },
+    {
+      "id": "story_planning",
+      "state": "edited",
+      "pageNum": 4
+    },
+    {
+      "id": "shooting_time",
+      "state": "edited",
+      "pageNum": 5
+    },
+    {
+      "id": "break_time",
+      "state": "edited",
+      "pageNum": 6
+    },
+    {
+      "id": "editing_and_sound",
+      "state": "edited",
+      "pageNum": 7
+    },
+    {
+      "id": "clay_animation_festival",
+      "state": "edited",
+      "pageNum": 8
+    },
+    {
+      "id": "feedback_time",
+      "state": "edited",
+      "pageNum": 9
+    },
+    {
+      "id": "next_week_preview",
+      "state": "edited",
+      "pageNum": 10
+    }
+  ],
+  "outline": [
+    {
+      "id": "cover",
+      "title": "進階黏土綜合挑戰",
+      "summary": "課程開場與主題介紹",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "review_advanced_clay",
+      "title": "複習：進階黏土技巧",
+      "summary": "骨架、表情、走路與跑步",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "challenge_rules",
+      "title": "今日挑戰規則",
+      "summary": "結合所有技巧拍一段短片",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "story_planning",
+      "title": "構思你的黏土故事",
+      "summary": "先畫分鏡圖，設計角色動作",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "shooting_time",
+      "title": "開始拍攝！",
+      "summary": "實作時間，老師巡迴指導",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "break_time",
+      "title": "休息一下！",
+      "summary": "中場休息時間",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "editing_and_sound",
+      "title": "剪輯與配音",
+      "summary": "加上音效讓角色更生動",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "clay_animation_festival",
+      "title": "黏土動畫影展",
+      "summary": "播放大家的作品，互相欣賞",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "feedback_time",
+      "title": "講評與回饋",
+      "summary": "討論哪裡拍得好，哪裡可以改進",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "next_week_preview",
+      "title": "下週預告 — 畢業微電影",
+      "summary": "預告下週的最終專案",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "project_info": {
+    "title": "改良與片頭片尾",
+    "created": 1775029023.179145,
+    "last_updated": 1775029290.412839,
+    "total_slides": 11
+  },
+  "slides": [
+    {
+      "id": "cover",
+      "state": "edited",
+      "pageNum": 1
+    },
+    {
+      "id": "review_feedback",
+      "state": "edited",
+      "pageNum": 2
+    },
+    {
+      "id": "modification_list",
+      "state": "edited",
+      "pageNum": 3
+    },
+    {
+      "id": "reshoot_tips",
+      "state": "edited",
+      "pageNum": 4
+    },
+    {
+      "id": "intro_outro_importance",
+      "state": "edited",
+      "pageNum": 5
+    },
+    {
+      "id": "make_title_card",
+      "state": "edited",
+      "pageNum": 6
+    },
+    {
+      "id": "break_time",
+      "state": "edited",
+      "pageNum": 7
+    },
+    {
+      "id": "w1_premiere",
+      "state": "edited",
+      "pageNum": 8
+    },
+    {
+      "id": "audience_voting",
+      "state": "edited",
+      "pageNum": 9
+    },
+    {
+      "id": "best_film_award",
+      "state": "edited",
+      "pageNum": 10
+    },
+    {
+      "id": "tomorrow_preview",
+      "state": "edited",
+      "pageNum": 11
+    }
+  ],
+  "outline": [
+    {
+      "id": "cover",
+      "title": "改良與片頭片尾",
+      "summary": "課程開場與主題介紹",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "review_feedback",
+      "title": "回顧昨天的回饋",
+      "summary": "分組討論修改計畫",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "modification_list",
+      "title": "修改清單",
+      "summary": "常見的修改項目與建議",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "reshoot_tips",
+      "title": "補拍技巧",
+      "summary": "場景還原與光線一致性",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "intro_outro_importance",
+      "title": "片頭與片尾的重要性",
+      "summary": "解釋片頭片尾的功能",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "make_title_card",
+      "title": "製作片頭卡",
+      "summary": "設計並拍攝片頭與片尾",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "break_time",
+      "title": "休息一下！",
+      "summary": "中場休息時間",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "w1_premiere",
+      "title": "第一週放映會",
+      "summary": "各組播放修改後的完整作品",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "audience_voting",
+      "title": "觀眾票選",
+      "summary": "投票選出最喜歡的作品",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "best_film_award",
+      "title": "本週最佳影片",
+      "summary": "頒獎與鼓勵",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "tomorrow_preview",
+      "title": "下週預告 — 黏土角色捏塑與變形",
+      "summary": "預告下週的課程內容",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    }
+  ]
+}

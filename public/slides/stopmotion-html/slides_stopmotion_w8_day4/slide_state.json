@@ -1,0 +1,132 @@
+{
+  "project_info": {
+    "title": "剪輯與首映會",
+    "created": 1775038301.7348402,
+    "last_updated": 1775038533.019891,
+    "total_slides": 10
+  },
+  "slides": [
+    {
+      "id": "cover",
+      "state": "edited",
+      "pageNum": 1
+    },
+    {
+      "id": "editing_basics",
+      "state": "edited",
+      "pageNum": 2
+    },
+    {
+      "id": "adding_sound",
+      "state": "edited",
+      "pageNum": 3
+    },
+    {
+      "id": "title_and_credits",
+      "state": "edited",
+      "pageNum": 4
+    },
+    {
+      "id": "practice_time_edit",
+      "state": "edited",
+      "pageNum": 5
+    },
+    {
+      "id": "break_time",
+      "state": "edited",
+      "pageNum": 6
+    },
+    {
+      "id": "premiere_prep",
+      "state": "edited",
+      "pageNum": 7
+    },
+    {
+      "id": "premiere_showcase",
+      "state": "edited",
+      "pageNum": 8
+    },
+    {
+      "id": "awards_ceremony",
+      "state": "edited",
+      "pageNum": 9
+    },
+    {
+      "id": "course_wrap_up",
+      "state": "edited",
+      "pageNum": 10
+    }
+  ],
+  "outline": [
+    {
+      "id": "cover",
+      "title": "剪輯與首映會",
+      "summary": "課程開場與主題介紹",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "editing_basics",
+      "title": "剪輯的基本概念",
+      "summary": "把照片變成影片，調整速度",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "adding_sound",
+      "title": "加入聲音的魔法",
+      "summary": "配音、音效與背景音樂",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "title_and_credits",
+      "title": "加上片頭與片尾",
+      "summary": "寫上片名和導演的名字",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "practice_time_edit",
+      "title": "實作時間：剪輯你的微電影",
+      "summary": "完成最後的後製工作",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "break_time",
+      "title": "休息一下！",
+      "summary": "中場休息時間",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "premiere_prep",
+      "title": "首映會準備",
+      "summary": "準備好爆米花，準備播放",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "premiere_showcase",
+      "title": "畢業微電影首映會",
+      "summary": "播放大家的作品，互相欣賞",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "awards_ceremony",
+      "title": "頒獎典禮與回饋",
+      "summary": "頒發最佳導演、最佳動畫等獎項",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "course_wrap_up",
+      "title": "課程總結與大合照",
+      "summary": "恭喜大家成為定格動畫導演！",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    }
+  ]
+}

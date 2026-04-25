@@ -1,0 +1,168 @@
+{
+  "project_info": {
+    "title": "什麼是定格動畫？",
+    "created": 1775028055.3325906,
+    "last_updated": 1775028430.986069,
+    "total_slides": 13
+  },
+  "slides": [
+    {
+      "id": "cover",
+      "state": "edited",
+      "pageNum": 1
+    },
+    {
+      "id": "animation_secret",
+      "state": "edited",
+      "pageNum": 2
+    },
+    {
+      "id": "classic_animation",
+      "state": "edited",
+      "pageNum": 3
+    },
+    {
+      "id": "animation_types",
+      "state": "edited",
+      "pageNum": 4
+    },
+    {
+      "id": "flipbook_activity",
+      "state": "edited",
+      "pageNum": 5
+    },
+    {
+      "id": "story_power",
+      "state": "edited",
+      "pageNum": 6
+    },
+    {
+      "id": "three_sentence_story",
+      "state": "edited",
+      "pageNum": 7
+    },
+    {
+      "id": "break_time",
+      "state": "edited",
+      "pageNum": 8
+    },
+    {
+      "id": "what_is_storyboard",
+      "state": "edited",
+      "pageNum": 9
+    },
+    {
+      "id": "how_to_storyboard",
+      "state": "edited",
+      "pageNum": 10
+    },
+    {
+      "id": "storyboard_practice",
+      "state": "edited",
+      "pageNum": 11
+    },
+    {
+      "id": "sharing_time",
+      "state": "edited",
+      "pageNum": 12
+    },
+    {
+      "id": "tomorrow_preview",
+      "state": "edited",
+      "pageNum": 13
+    }
+  ],
+  "outline": [
+    {
+      "id": "cover",
+      "title": "什麼是定格動畫？",
+      "summary": "課程開場與主題介紹",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "animation_secret",
+      "title": "動畫的秘密 — 視覺暫留",
+      "summary": "解釋視覺暫留原理與動畫成因",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "classic_animation",
+      "title": "經典定格動畫欣賞",
+      "summary": "介紹知名定格動畫作品如笑笑羊、酷狗寶貝",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "animation_types",
+      "title": "定格動畫的四大類型",
+      "summary": "介紹黏土、紙偶、積木、實物動畫",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "flipbook_activity",
+      "title": "動手試試 — 翻頁動畫",
+      "summary": "帶領學生製作簡單的翻頁動畫",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "story_power",
+      "title": "好動畫需要好故事",
+      "summary": "講解故事的三個部分：開頭、中間、結尾",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "three_sentence_story",
+      "title": "三句話故事挑戰",
+      "summary": "分組發想三句話故事",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "break_time",
+      "title": "休息一下！",
+      "summary": "中場休息時間",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "what_is_storyboard",
+      "title": "什麼是分鏡表？",
+      "summary": "介紹分鏡表的概念與重要性",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "how_to_storyboard",
+      "title": "分鏡表怎麼畫？",
+      "summary": "講解分鏡表的繪製方法與要素",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "storyboard_practice",
+      "title": "分鏡表實作",
+      "summary": "將三句話故事畫成 6-8 格分鏡表",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "sharing_time",
+      "title": "分享時間",
+      "summary": "各組上台分享故事與分鏡表",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "tomorrow_preview",
+      "title": "明天預告 — 基礎拍攝技巧",
+      "summary": "預告明天的課程內容",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    }
+  ]
+}

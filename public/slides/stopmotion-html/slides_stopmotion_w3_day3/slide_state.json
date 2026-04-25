@@ -1,0 +1,144 @@
+{
+  "project_info": {
+    "title": "場景拍攝練習",
+    "created": 1775031052.0703356,
+    "last_updated": 1775031318.2810872,
+    "total_slides": 11
+  },
+  "slides": [
+    {
+      "id": "cover",
+      "state": "edited",
+      "pageNum": 1
+    },
+    {
+      "id": "camera_angle",
+      "state": "edited",
+      "pageNum": 2
+    },
+    {
+      "id": "lighting_basics",
+      "state": "edited",
+      "pageNum": 3
+    },
+    {
+      "id": "shadow_magic",
+      "state": "edited",
+      "pageNum": 4
+    },
+    {
+      "id": "setup_camera",
+      "state": "edited",
+      "pageNum": 5
+    },
+    {
+      "id": "test_shot",
+      "state": "edited",
+      "pageNum": 6
+    },
+    {
+      "id": "break_time",
+      "state": "edited",
+      "pageNum": 7
+    },
+    {
+      "id": "action_in_scene",
+      "state": "edited",
+      "pageNum": 8
+    },
+    {
+      "id": "shooting_practice",
+      "state": "edited",
+      "pageNum": 9
+    },
+    {
+      "id": "showcase",
+      "state": "edited",
+      "pageNum": 10
+    },
+    {
+      "id": "tomorrow_preview",
+      "state": "edited",
+      "pageNum": 11
+    }
+  ],
+  "outline": [
+    {
+      "id": "cover",
+      "title": "場景拍攝練習",
+      "summary": "課程開場與主題介紹",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "camera_angle",
+      "title": "攝影機的角度",
+      "summary": "平視、俯視、仰視的差別",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "lighting_basics",
+      "title": "打光的基本技巧",
+      "summary": "如何讓場景更明亮",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "shadow_magic",
+      "title": "影子的魔法",
+      "summary": "利用影子製造氣氛",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "setup_camera",
+      "title": "架設攝影機",
+      "summary": "固定平板與場景",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "test_shot",
+      "title": "試拍看看",
+      "summary": "拍幾張照片檢查畫面",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "break_time",
+      "title": "休息一下！",
+      "summary": "中場休息時間",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "action_in_scene",
+      "title": "場景中的動作",
+      "summary": "讓角色在場景裡移動",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "shooting_practice",
+      "title": "拍攝練習",
+      "summary": "拍一段角色在場景裡走動的動畫",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "showcase",
+      "title": "作品展示",
+      "summary": "各組播放拍攝的練習片段",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "tomorrow_preview",
+      "title": "明天預告 — 空間感動畫挑戰",
+      "summary": "預告明天的課程內容",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    }
+  ]
+}

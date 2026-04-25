@@ -1,0 +1,144 @@
+{
+  "project_info": {
+    "title": "認識場景與空間感",
+    "created": 1775030491.7564726,
+    "last_updated": 1775030760.5695474,
+    "total_slides": 11
+  },
+  "slides": [
+    {
+      "id": "cover",
+      "state": "edited",
+      "pageNum": 1
+    },
+    {
+      "id": "what_is_scene",
+      "state": "edited",
+      "pageNum": 2
+    },
+    {
+      "id": "background_foreground",
+      "state": "edited",
+      "pageNum": 3
+    },
+    {
+      "id": "depth_of_field",
+      "state": "edited",
+      "pageNum": 4
+    },
+    {
+      "id": "cardboard_magic",
+      "state": "edited",
+      "pageNum": 5
+    },
+    {
+      "id": "design_scene",
+      "state": "edited",
+      "pageNum": 6
+    },
+    {
+      "id": "break_time",
+      "state": "edited",
+      "pageNum": 7
+    },
+    {
+      "id": "start_building",
+      "state": "edited",
+      "pageNum": 8
+    },
+    {
+      "id": "add_colors",
+      "state": "edited",
+      "pageNum": 9
+    },
+    {
+      "id": "showcase",
+      "state": "edited",
+      "pageNum": 10
+    },
+    {
+      "id": "tomorrow_preview",
+      "state": "edited",
+      "pageNum": 11
+    }
+  ],
+  "outline": [
+    {
+      "id": "cover",
+      "title": "認識場景與空間感",
+      "summary": "課程開場與主題介紹",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "what_is_scene",
+      "title": "什麼是場景？",
+      "summary": "故事發生的地點與環境",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "background_foreground",
+      "title": "前景與背景",
+      "summary": "介紹畫面中的層次感",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "depth_of_field",
+      "title": "空間感魔法",
+      "summary": "近大遠小的視覺原理",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "cardboard_magic",
+      "title": "紙板變變變",
+      "summary": "用紙板製作立體空間",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "design_scene",
+      "title": "設計你的場景",
+      "summary": "畫出場景草圖與配置",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "break_time",
+      "title": "休息一下！",
+      "summary": "中場休息時間",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "start_building",
+      "title": "開始搭建！",
+      "summary": "動手製作紙板場景基底",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "add_colors",
+      "title": "為場景上色",
+      "summary": "使用色紙或顏料裝飾",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "showcase",
+      "title": "場景展示",
+      "summary": "各組介紹自己的場景設計",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "tomorrow_preview",
+      "title": "明天預告 — 製作場景道具",
+      "summary": "預告明天的課程內容",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    }
+  ]
+}

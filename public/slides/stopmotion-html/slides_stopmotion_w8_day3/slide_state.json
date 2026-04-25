@@ -1,0 +1,132 @@
+{
+  "project_info": {
+    "title": "微電影開拍",
+    "created": 1775038067.2616906,
+    "last_updated": 1775038283.6705935,
+    "total_slides": 10
+  },
+  "slides": [
+    {
+      "id": "cover",
+      "state": "edited",
+      "pageNum": 1
+    },
+    {
+      "id": "pre_shoot_checklist",
+      "state": "edited",
+      "pageNum": 2
+    },
+    {
+      "id": "teamwork",
+      "state": "edited",
+      "pageNum": 3
+    },
+    {
+      "id": "shooting_tips",
+      "state": "edited",
+      "pageNum": 4
+    },
+    {
+      "id": "action",
+      "state": "edited",
+      "pageNum": 5
+    },
+    {
+      "id": "break_time",
+      "state": "edited",
+      "pageNum": 6
+    },
+    {
+      "id": "check_progress",
+      "state": "edited",
+      "pageNum": 7
+    },
+    {
+      "id": "continue_shooting",
+      "state": "edited",
+      "pageNum": 8
+    },
+    {
+      "id": "wrap_up",
+      "state": "edited",
+      "pageNum": 9
+    },
+    {
+      "id": "tomorrow_preview",
+      "state": "edited",
+      "pageNum": 10
+    }
+  ],
+  "outline": [
+    {
+      "id": "cover",
+      "title": "微電影開拍",
+      "summary": "課程開場與主題介紹",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "pre_shoot_checklist",
+      "title": "開拍前檢查表",
+      "summary": "確認腳架、燈光、電量",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "teamwork",
+      "title": "團隊合作 (如果有分組)",
+      "summary": "導演、攝影師、動畫師的分工",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "shooting_tips",
+      "title": "拍攝小提醒",
+      "summary": "慢慢拍、不要動到背景",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "action",
+      "title": "Action！開始拍攝",
+      "summary": "實作時間，老師巡迴指導",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "break_time",
+      "title": "休息一下！",
+      "summary": "中場休息時間",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "check_progress",
+      "title": "進度檢查",
+      "summary": "看看拍了多少，還剩多少",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "continue_shooting",
+      "title": "繼續拍攝",
+      "summary": "完成剩下的分鏡",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "wrap_up",
+      "title": "收工與整理",
+      "summary": "收拾道具，準備明天的剪輯",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "tomorrow_preview",
+      "title": "明天預告 — 剪輯與首映會",
+      "summary": "預告明天的課程內容",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    }
+  ]
+}

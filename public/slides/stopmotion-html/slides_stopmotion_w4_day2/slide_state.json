@@ -1,0 +1,132 @@
+{
+  "project_info": {
+    "title": "角色配音訓練",
+    "created": 1775032074.5913618,
+    "last_updated": 1775032360.6478105,
+    "total_slides": 10
+  },
+  "slides": [
+    {
+      "id": "cover",
+      "state": "edited",
+      "pageNum": 1
+    },
+    {
+      "id": "voice_acting",
+      "state": "edited",
+      "pageNum": 2
+    },
+    {
+      "id": "emotion_voice",
+      "state": "edited",
+      "pageNum": 3
+    },
+    {
+      "id": "voice_game",
+      "state": "edited",
+      "pageNum": 4
+    },
+    {
+      "id": "script_reading",
+      "state": "edited",
+      "pageNum": 5
+    },
+    {
+      "id": "break_time",
+      "state": "edited",
+      "pageNum": 6
+    },
+    {
+      "id": "record_voice",
+      "state": "edited",
+      "pageNum": 7
+    },
+    {
+      "id": "lip_sync",
+      "state": "edited",
+      "pageNum": 8
+    },
+    {
+      "id": "showcase",
+      "state": "edited",
+      "pageNum": 9
+    },
+    {
+      "id": "tomorrow_preview",
+      "state": "edited",
+      "pageNum": 10
+    }
+  ],
+  "outline": [
+    {
+      "id": "cover",
+      "title": "角色配音訓練",
+      "summary": "課程開場與主題介紹",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "voice_acting",
+      "title": "什麼是配音？",
+      "summary": "用聲音演戲",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "emotion_voice",
+      "title": "聲音的情緒",
+      "summary": "開心、生氣、難過的聲音有什麼不同？",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "voice_game",
+      "title": "情緒聲音大挑戰",
+      "summary": "用不同的情緒說同一句話",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "script_reading",
+      "title": "讀稿練習",
+      "summary": "看著腳本唸台詞",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "break_time",
+      "title": "休息一下！",
+      "summary": "中場休息時間",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "record_voice",
+      "title": "錄製對白",
+      "summary": "用平板把台詞錄下來",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "lip_sync",
+      "title": "對嘴小技巧",
+      "summary": "聲音要跟角色的嘴巴對上",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "showcase",
+      "title": "配音發表會",
+      "summary": "各組分享錄製的對白",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "tomorrow_preview",
+      "title": "明天預告 — 基礎剪輯與音效加入",
+      "summary": "預告明天的課程內容",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    }
+  ]
+}

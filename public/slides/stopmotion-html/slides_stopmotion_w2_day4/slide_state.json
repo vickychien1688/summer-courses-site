@@ -1,0 +1,144 @@
+{
+  "project_info": {
+    "title": "黏土動畫短片挑戰",
+    "created": 1775030188.087756,
+    "last_updated": 1775030429.2282794,
+    "total_slides": 11
+  },
+  "slides": [
+    {
+      "id": "cover",
+      "state": "edited",
+      "pageNum": 1
+    },
+    {
+      "id": "todays_mission",
+      "state": "edited",
+      "pageNum": 2
+    },
+    {
+      "id": "story_brainstorming",
+      "state": "edited",
+      "pageNum": 3
+    },
+    {
+      "id": "storyboard_planning",
+      "state": "edited",
+      "pageNum": 4
+    },
+    {
+      "id": "prep_time",
+      "state": "edited",
+      "pageNum": 5
+    },
+    {
+      "id": "break_time",
+      "state": "edited",
+      "pageNum": 6
+    },
+    {
+      "id": "shooting_time",
+      "state": "edited",
+      "pageNum": 7
+    },
+    {
+      "id": "final_check",
+      "state": "edited",
+      "pageNum": 8
+    },
+    {
+      "id": "premiere",
+      "state": "edited",
+      "pageNum": 9
+    },
+    {
+      "id": "award_ceremony",
+      "state": "edited",
+      "pageNum": 10
+    },
+    {
+      "id": "next_week_preview",
+      "state": "edited",
+      "pageNum": 11
+    }
+  ],
+  "outline": [
+    {
+      "id": "cover",
+      "title": "黏土動畫短片挑戰",
+      "summary": "課程開場與主題介紹",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "todays_mission",
+      "title": "今日任務",
+      "summary": "拍攝一部 10 秒的黏土動畫短片",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "story_brainstorming",
+      "title": "故事發想",
+      "summary": "想一個簡單有趣的劇情",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "storyboard_planning",
+      "title": "分鏡規劃",
+      "summary": "畫出三個主要畫面",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "prep_time",
+      "title": "準備開拍！",
+      "summary": "架設平板、準備黏土角色",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "break_time",
+      "title": "休息一下！",
+      "summary": "中場休息時間",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "shooting_time",
+      "title": "拍攝時間",
+      "summary": "專心拍攝，注意動作的連貫性",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "final_check",
+      "title": "最後檢查",
+      "summary": "播放看看有沒有需要補拍的地方",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "premiere",
+      "title": "首映會",
+      "summary": "各組播放自己的黏土動畫短片",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "award_ceremony",
+      "title": "頒獎典禮",
+      "summary": "頒發最佳創意獎、最佳動作獎等",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "next_week_preview",
+      "title": "下週預告 — 紙板場景與空間感",
+      "summary": "預告下週的課程內容",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    }
+  ]
+}

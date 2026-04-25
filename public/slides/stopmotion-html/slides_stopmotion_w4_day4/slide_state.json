@@ -1,0 +1,132 @@
+{
+  "project_info": {
+    "title": "基礎短片首映會",
+    "created": 1775032742.341246,
+    "last_updated": 1775032978.593909,
+    "total_slides": 10
+  },
+  "slides": [
+    {
+      "id": "cover",
+      "state": "edited",
+      "pageNum": 1
+    },
+    {
+      "id": "four_weeks_review",
+      "state": "edited",
+      "pageNum": 2
+    },
+    {
+      "id": "premiere_rules",
+      "state": "edited",
+      "pageNum": 3
+    },
+    {
+      "id": "premiere_start",
+      "state": "edited",
+      "pageNum": 4
+    },
+    {
+      "id": "break_time",
+      "state": "edited",
+      "pageNum": 5
+    },
+    {
+      "id": "director_sharing",
+      "state": "edited",
+      "pageNum": 6
+    },
+    {
+      "id": "audience_feedback",
+      "state": "edited",
+      "pageNum": 7
+    },
+    {
+      "id": "voting_time",
+      "state": "edited",
+      "pageNum": 8
+    },
+    {
+      "id": "award_ceremony",
+      "state": "edited",
+      "pageNum": 9
+    },
+    {
+      "id": "next_week_preview",
+      "state": "edited",
+      "pageNum": 10
+    }
+  ],
+  "outline": [
+    {
+      "id": "cover",
+      "title": "基礎短片首映會",
+      "summary": "課程開場與主題介紹",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "four_weeks_review",
+      "title": "四週回顧",
+      "summary": "回顧這四週學到的東西",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "premiere_rules",
+      "title": "首映會規則",
+      "summary": "安靜欣賞，給予掌聲",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "premiere_start",
+      "title": "首映會開始！",
+      "summary": "各組輪流播放影片",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "break_time",
+      "title": "休息一下！",
+      "summary": "中場休息時間",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "director_sharing",
+      "title": "導演分享時間",
+      "summary": "分享製作過程中最困難和最有趣的事",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "audience_feedback",
+      "title": "觀眾回饋",
+      "summary": "說說你最喜歡哪一部影片的哪個部分",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "voting_time",
+      "title": "投票時間",
+      "summary": "選出最佳影片、最佳配音、最佳場景",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "award_ceremony",
+      "title": "頒獎典禮",
+      "summary": "頒發獎狀，恭喜大家完成基礎短片！",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "next_week_preview",
+      "title": "下週預告 — 進階平板拍攝篇",
+      "summary": "預告下週的進階課程",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    }
+  ]
+}

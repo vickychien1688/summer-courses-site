@@ -1,0 +1,132 @@
+{
+  "project_info": {
+    "title": "聲音的魔法",
+    "created": 1775031840.930022,
+    "last_updated": 1775032068.3400347,
+    "total_slides": 10
+  },
+  "slides": [
+    {
+      "id": "cover",
+      "state": "edited",
+      "pageNum": 1
+    },
+    {
+      "id": "why_sound",
+      "state": "edited",
+      "pageNum": 2
+    },
+    {
+      "id": "sound_types",
+      "state": "edited",
+      "pageNum": 3
+    },
+    {
+      "id": "foley_intro",
+      "state": "edited",
+      "pageNum": 4
+    },
+    {
+      "id": "foley_game",
+      "state": "edited",
+      "pageNum": 5
+    },
+    {
+      "id": "break_time",
+      "state": "edited",
+      "pageNum": 6
+    },
+    {
+      "id": "foley_practice",
+      "state": "edited",
+      "pageNum": 7
+    },
+    {
+      "id": "record_foley",
+      "state": "edited",
+      "pageNum": 8
+    },
+    {
+      "id": "showcase",
+      "state": "edited",
+      "pageNum": 9
+    },
+    {
+      "id": "tomorrow_preview",
+      "state": "edited",
+      "pageNum": 10
+    }
+  ],
+  "outline": [
+    {
+      "id": "cover",
+      "title": "聲音的魔法",
+      "summary": "課程開場與主題介紹",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "why_sound",
+      "title": "為什麼需要聲音？",
+      "summary": "聲音可以讓動畫更生動",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "sound_types",
+      "title": "聲音的三種魔法",
+      "summary": "對白、音效、背景音樂",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "foley_intro",
+      "title": "什麼是擬音 (Foley)？",
+      "summary": "用生活用品製造音效",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "foley_game",
+      "title": "猜猜這是什麼聲音？",
+      "summary": "聽聲音猜物品的小遊戲",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "break_time",
+      "title": "休息一下！",
+      "summary": "中場休息時間",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "foley_practice",
+      "title": "擬音大挑戰",
+      "summary": "用身邊的物品製造走路聲、開門聲",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "record_foley",
+      "title": "錄製音效",
+      "summary": "用平板把製造的聲音錄下來",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "showcase",
+      "title": "音效發表會",
+      "summary": "各組分享錄製的有趣音效",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "tomorrow_preview",
+      "title": "明天預告 — 角色配音訓練",
+      "summary": "預告明天的課程內容",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    }
+  ]
+}

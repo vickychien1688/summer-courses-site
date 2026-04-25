@@ -1,0 +1,144 @@
+{
+  "project_info": {
+    "title": "基礎拍攝技巧",
+    "created": 1775028457.466459,
+    "last_updated": 1775028691.0047503,
+    "total_slides": 11
+  },
+  "slides": [
+    {
+      "id": "cover",
+      "state": "edited",
+      "pageNum": 1
+    },
+    {
+      "id": "three_rules",
+      "state": "edited",
+      "pageNum": 2
+    },
+    {
+      "id": "app_intro",
+      "state": "edited",
+      "pageNum": 3
+    },
+    {
+      "id": "camera_setup",
+      "state": "edited",
+      "pageNum": 4
+    },
+    {
+      "id": "onion_skin",
+      "state": "edited",
+      "pageNum": 5
+    },
+    {
+      "id": "first_practice",
+      "state": "edited",
+      "pageNum": 6
+    },
+    {
+      "id": "break_time",
+      "state": "edited",
+      "pageNum": 7
+    },
+    {
+      "id": "character_action",
+      "state": "edited",
+      "pageNum": 8
+    },
+    {
+      "id": "action_breakdown",
+      "state": "edited",
+      "pageNum": 9
+    },
+    {
+      "id": "showcase",
+      "state": "edited",
+      "pageNum": 10
+    },
+    {
+      "id": "tomorrow_preview",
+      "state": "edited",
+      "pageNum": 11
+    }
+  ],
+  "outline": [
+    {
+      "id": "cover",
+      "title": "基礎拍攝技巧",
+      "summary": "課程開場與主題介紹",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "three_rules",
+      "title": "拍攝三大原則",
+      "summary": "相機固定、移動一點點、光線一致",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "app_intro",
+      "title": "認識 Stop Motion Studio",
+      "summary": "介紹拍攝 App 的基本介面",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "camera_setup",
+      "title": "固定相機的方法",
+      "summary": "示範如何用支架或書本固定平板",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "onion_skin",
+      "title": "超好用的洋蔥皮功能",
+      "summary": "解釋洋蔥皮功能的用途與操作",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "first_practice",
+      "title": "第一次拍攝練習",
+      "summary": "任務：讓物體從左邊移動到右邊",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "break_time",
+      "title": "休息一下！",
+      "summary": "中場休息時間",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "character_action",
+      "title": "讓角色動起來",
+      "summary": "進階練習：角色的動作拆解",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "action_breakdown",
+      "title": "常見的動作拆解",
+      "summary": "走路、跳躍、轉身的拆解方式",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "showcase",
+      "title": "成果放映",
+      "summary": "各組播放今天的拍攝成果",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "tomorrow_preview",
+      "title": "明天預告 — 拍攝你的第一部短片",
+      "summary": "預告明天的課程內容",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    }
+  ]
+}

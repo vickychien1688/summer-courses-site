@@ -1,0 +1,132 @@
+{
+  "project_info": {
+    "title": "角色互動與對話",
+    "created": 1775029926.4166381,
+    "last_updated": 1775030176.9953618,
+    "total_slides": 10
+  },
+  "slides": [
+    {
+      "id": "cover",
+      "state": "edited",
+      "pageNum": 1
+    },
+    {
+      "id": "interaction_basics",
+      "state": "edited",
+      "pageNum": 2
+    },
+    {
+      "id": "eye_contact",
+      "state": "edited",
+      "pageNum": 3
+    },
+    {
+      "id": "talking_mouth",
+      "state": "edited",
+      "pageNum": 4
+    },
+    {
+      "id": "interaction_practice",
+      "state": "edited",
+      "pageNum": 5
+    },
+    {
+      "id": "break_time",
+      "state": "edited",
+      "pageNum": 6
+    },
+    {
+      "id": "talking_practice",
+      "state": "edited",
+      "pageNum": 7
+    },
+    {
+      "id": "timing_tips",
+      "state": "edited",
+      "pageNum": 8
+    },
+    {
+      "id": "showcase",
+      "state": "edited",
+      "pageNum": 9
+    },
+    {
+      "id": "tomorrow_preview",
+      "state": "edited",
+      "pageNum": 10
+    }
+  ],
+  "outline": [
+    {
+      "id": "cover",
+      "title": "角色互動與對話",
+      "summary": "課程開場與主題介紹",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "interaction_basics",
+      "title": "什麼是互動？",
+      "summary": "兩個角色之間的動作與反應",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "eye_contact",
+      "title": "眼神交流的重要性",
+      "summary": "角色要看著對方說話",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "talking_mouth",
+      "title": "怎麼表現說話？",
+      "summary": "嘴巴的開合與身體的微動",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "interaction_practice",
+      "title": "互動拍攝練習",
+      "summary": "任務：角色 A 拍角色 B 的肩膀",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "break_time",
+      "title": "休息一下！",
+      "summary": "中場休息時間",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "talking_practice",
+      "title": "對話拍攝練習",
+      "summary": "任務：兩個角色互相打招呼",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "timing_tips",
+      "title": "節奏的掌握",
+      "summary": "說話時要停頓，不要一直動",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "showcase",
+      "title": "成果放映",
+      "summary": "各組播放今天的拍攝成果",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "tomorrow_preview",
+      "title": "明天預告 — 黏土動畫短片挑戰",
+      "summary": "預告明天的課程內容",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "project_info": {
+    "title": "畢業微電影企劃",
+    "created": 1775037470.6245968,
+    "last_updated": 1775037796.9785984,
+    "total_slides": 10
+  },
+  "slides": [
+    {
+      "id": "cover",
+      "state": "edited",
+      "pageNum": 1
+    },
+    {
+      "id": "what_is_micro_film",
+      "state": "edited",
+      "pageNum": 2
+    },
+    {
+      "id": "brainstorming",
+      "state": "edited",
+      "pageNum": 3
+    },
+    {
+      "id": "story_structure",
+      "state": "edited",
+      "pageNum": 4
+    },
+    {
+      "id": "character_design",
+      "state": "edited",
+      "pageNum": 5
+    },
+    {
+      "id": "practice_time_story",
+      "state": "edited",
+      "pageNum": 6
+    },
+    {
+      "id": "break_time",
+      "state": "edited",
+      "pageNum": 7
+    },
+    {
+      "id": "storyboard_planning",
+      "state": "edited",
+      "pageNum": 8
+    },
+    {
+      "id": "showcase",
+      "state": "edited",
+      "pageNum": 9
+    },
+    {
+      "id": "tomorrow_preview",
+      "state": "edited",
+      "pageNum": 10
+    }
+  ],
+  "outline": [
+    {
+      "id": "cover",
+      "title": "畢業微電影企劃",
+      "summary": "課程開場與主題介紹",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "what_is_micro_film",
+      "title": "什麼是微電影？",
+      "summary": "有完整故事的短片",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "brainstorming",
+      "title": "腦力激盪：找靈感",
+      "summary": "從生活、夢想或笑話中找故事",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "story_structure",
+      "title": "故事結構：起承轉合",
+      "summary": "開頭、發展、高潮、結局",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "character_design",
+      "title": "角色設計",
+      "summary": "主角是誰？有什麼特色？",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "practice_time_story",
+      "title": "實作時間：寫下你的故事大綱",
+      "summary": "用幾句話寫出你的微電影故事",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "break_time",
+      "title": "休息一下！",
+      "summary": "中場休息時間",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "storyboard_planning",
+      "title": "分鏡圖規劃",
+      "summary": "把故事畫成一格一格的畫面",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "showcase",
+      "title": "企劃分享",
+      "summary": "分享你的微電影點子",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "tomorrow_preview",
+      "title": "明天預告 — 道具與場景製作",
+      "summary": "預告明天的課程內容",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    }
+  ]
+}

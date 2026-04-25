@@ -1,0 +1,132 @@
+{
+  "project_info": {
+    "title": "進階黏土捏塑",
+    "created": 1775035646.106792,
+    "last_updated": 1775036267.289032,
+    "total_slides": 10
+  },
+  "slides": [
+    {
+      "id": "cover",
+      "state": "edited",
+      "pageNum": 1
+    },
+    {
+      "id": "what_is_advanced_clay",
+      "state": "edited",
+      "pageNum": 2
+    },
+    {
+      "id": "armature_introduction",
+      "state": "edited",
+      "pageNum": 3
+    },
+    {
+      "id": "how_to_make_armature",
+      "state": "edited",
+      "pageNum": 4
+    },
+    {
+      "id": "adding_clay",
+      "state": "edited",
+      "pageNum": 5
+    },
+    {
+      "id": "practice_time",
+      "state": "edited",
+      "pageNum": 6
+    },
+    {
+      "id": "break_time",
+      "state": "edited",
+      "pageNum": 7
+    },
+    {
+      "id": "details_and_textures",
+      "state": "edited",
+      "pageNum": 8
+    },
+    {
+      "id": "showcase",
+      "state": "edited",
+      "pageNum": 9
+    },
+    {
+      "id": "tomorrow_preview",
+      "state": "edited",
+      "pageNum": 10
+    }
+  ],
+  "outline": [
+    {
+      "id": "cover",
+      "title": "進階黏土捏塑",
+      "summary": "課程開場與主題介紹",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "what_is_advanced_clay",
+      "title": "什麼是進階黏土捏塑？",
+      "summary": "製作更精細、更穩固的角色",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "armature_introduction",
+      "title": "認識骨架 (Armature)",
+      "summary": "讓黏土人站得更穩的秘密",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "how_to_make_armature",
+      "title": "如何製作骨架？",
+      "summary": "使用鋁線或鐵絲折出人形",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "adding_clay",
+      "title": "包上黏土",
+      "summary": "把黏土包在骨架外面",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "practice_time",
+      "title": "實作時間：製作骨架黏土人",
+      "summary": "動手做一個有骨架的角色",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "break_time",
+      "title": "休息一下！",
+      "summary": "中場休息時間",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "details_and_textures",
+      "title": "細節與紋理",
+      "summary": "用工具做出衣服皺褶或毛髮",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "showcase",
+      "title": "作品分享",
+      "summary": "展示大家做出的進階黏土人",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "tomorrow_preview",
+      "title": "明天預告 — 臉部表情變化",
+      "summary": "預告明天的課程內容",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    }
+  ]
+}

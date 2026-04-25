@@ -1,0 +1,132 @@
+{
+  "project_info": {
+    "title": "漂浮術",
+    "created": 1775034855.57557,
+    "last_updated": 1775035294.0690036,
+    "total_slides": 10
+  },
+  "slides": [
+    {
+      "id": "cover",
+      "state": "edited",
+      "pageNum": 1
+    },
+    {
+      "id": "what_is_floating",
+      "state": "edited",
+      "pageNum": 2
+    },
+    {
+      "id": "floating_principle",
+      "state": "edited",
+      "pageNum": 3
+    },
+    {
+      "id": "examples",
+      "state": "edited",
+      "pageNum": 4
+    },
+    {
+      "id": "how_to_shoot",
+      "state": "edited",
+      "pageNum": 5
+    },
+    {
+      "id": "practice_time",
+      "state": "edited",
+      "pageNum": 6
+    },
+    {
+      "id": "break_time",
+      "state": "edited",
+      "pageNum": 7
+    },
+    {
+      "id": "remove_supports",
+      "state": "edited",
+      "pageNum": 8
+    },
+    {
+      "id": "showcase",
+      "state": "edited",
+      "pageNum": 9
+    },
+    {
+      "id": "tomorrow_preview",
+      "state": "edited",
+      "pageNum": 10
+    }
+  ],
+  "outline": [
+    {
+      "id": "cover",
+      "title": "漂浮術",
+      "summary": "課程開場與主題介紹",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "what_is_floating",
+      "title": "什麼是漂浮術？",
+      "summary": "讓物品或角色飛在半空中",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "floating_principle",
+      "title": "漂浮術的原理",
+      "summary": "利用支撐物和修圖魔法",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "examples",
+      "title": "漂浮術的例子",
+      "summary": "飛行的掃帚、飄浮的蘋果",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "how_to_shoot",
+      "title": "如何拍攝漂浮術？",
+      "summary": "使用黏土或透明線支撐",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "practice_time",
+      "title": "拍攝練習：讓物品飛起來",
+      "summary": "試著拍一段物品漂浮的動畫",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "break_time",
+      "title": "休息一下！",
+      "summary": "中場休息時間",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "remove_supports",
+      "title": "進階：把支撐物變不見",
+      "summary": "介紹簡單的修圖概念",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "showcase",
+      "title": "作品分享",
+      "summary": "展示大家拍出的漂浮動畫",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "tomorrow_preview",
+      "title": "明天預告 — 魔術綜合挑戰",
+      "summary": "預告明天的課程內容",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    }
+  ]
+}

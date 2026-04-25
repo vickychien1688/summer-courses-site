@@ -1,0 +1,144 @@
+{
+  "project_info": {
+    "title": "製作場景道具",
+    "created": 1775030783.8045154,
+    "last_updated": 1775031024.5796385,
+    "total_slides": 11
+  },
+  "slides": [
+    {
+      "id": "cover",
+      "state": "edited",
+      "pageNum": 1
+    },
+    {
+      "id": "what_is_prop",
+      "state": "edited",
+      "pageNum": 2
+    },
+    {
+      "id": "prop_scale",
+      "state": "edited",
+      "pageNum": 3
+    },
+    {
+      "id": "prop_materials",
+      "state": "edited",
+      "pageNum": 4
+    },
+    {
+      "id": "make_tree",
+      "state": "edited",
+      "pageNum": 5
+    },
+    {
+      "id": "make_furniture",
+      "state": "edited",
+      "pageNum": 6
+    },
+    {
+      "id": "break_time",
+      "state": "edited",
+      "pageNum": 7
+    },
+    {
+      "id": "start_making",
+      "state": "edited",
+      "pageNum": 8
+    },
+    {
+      "id": "place_props",
+      "state": "edited",
+      "pageNum": 9
+    },
+    {
+      "id": "showcase",
+      "state": "edited",
+      "pageNum": 10
+    },
+    {
+      "id": "tomorrow_preview",
+      "state": "edited",
+      "pageNum": 11
+    }
+  ],
+  "outline": [
+    {
+      "id": "cover",
+      "title": "製作場景道具",
+      "summary": "課程開場與主題介紹",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "what_is_prop",
+      "title": "什麼是道具？",
+      "summary": "場景裡面的小物件",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "prop_scale",
+      "title": "道具的比例",
+      "summary": "配合角色的大小製作",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "prop_materials",
+      "title": "道具的材料",
+      "summary": "紙板、黏土、冰棒棍等",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "make_tree",
+      "title": "製作一棵樹",
+      "summary": "示範如何用紙板和黏土做樹",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "make_furniture",
+      "title": "製作家具",
+      "summary": "示範如何做椅子或桌子",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "break_time",
+      "title": "休息一下！",
+      "summary": "中場休息時間",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "start_making",
+      "title": "開始製作！",
+      "summary": "動手做自己場景需要的道具",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "place_props",
+      "title": "擺放道具",
+      "summary": "把道具放進場景裡看看",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "showcase",
+      "title": "場景與道具展示",
+      "summary": "各組展示豐富的場景",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "tomorrow_preview",
+      "title": "明天預告 — 場景拍攝練習",
+      "summary": "預告明天的課程內容",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "project_info": {
+    "title": "基礎剪輯與音效加入",
+    "created": 1775032397.3088515,
+    "last_updated": 1775032721.4975247,
+    "total_slides": 10
+  },
+  "slides": [
+    {
+      "id": "cover",
+      "state": "edited",
+      "pageNum": 1
+    },
+    {
+      "id": "what_is_editing",
+      "state": "edited",
+      "pageNum": 2
+    },
+    {
+      "id": "app_editing",
+      "state": "edited",
+      "pageNum": 3
+    },
+    {
+      "id": "import_video",
+      "state": "edited",
+      "pageNum": 4
+    },
+    {
+      "id": "add_sound",
+      "state": "edited",
+      "pageNum": 5
+    },
+    {
+      "id": "break_time",
+      "state": "edited",
+      "pageNum": 6
+    },
+    {
+      "id": "adjust_timing",
+      "state": "edited",
+      "pageNum": 7
+    },
+    {
+      "id": "add_bgm",
+      "state": "edited",
+      "pageNum": 8
+    },
+    {
+      "id": "export_video",
+      "state": "edited",
+      "pageNum": 9
+    },
+    {
+      "id": "tomorrow_preview",
+      "state": "edited",
+      "pageNum": 10
+    }
+  ],
+  "outline": [
+    {
+      "id": "cover",
+      "title": "基礎剪輯與音效加入",
+      "summary": "課程開場與主題介紹",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "what_is_editing",
+      "title": "什麼是剪輯？",
+      "summary": "把片段接起來，加上聲音",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "app_editing",
+      "title": "剪輯軟體介紹",
+      "summary": "認識平板上的剪輯工具",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "import_video",
+      "title": "匯入影片",
+      "summary": "把拍好的動畫放進剪輯軟體",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "add_sound",
+      "title": "加入聲音",
+      "summary": "把錄好的對白和音效放進去",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "break_time",
+      "title": "休息一下！",
+      "summary": "中場休息時間",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "adjust_timing",
+      "title": "調整時間點",
+      "summary": "讓聲音和畫面完美配合",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "add_bgm",
+      "title": "加入背景音樂",
+      "summary": "選擇適合的音樂，調整音量",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "export_video",
+      "title": "匯出影片",
+      "summary": "把剪好的動畫存成影片檔",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "tomorrow_preview",
+      "title": "明天預告 — 基礎短片首映會",
+      "summary": "預告明天的課程內容",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    }
+  ]
+}

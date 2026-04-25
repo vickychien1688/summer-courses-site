@@ -1,0 +1,132 @@
+{
+  "project_info": {
+    "title": "穿牆術",
+    "created": 1775034554.6748703,
+    "last_updated": 1775034824.8764732,
+    "total_slides": 10
+  },
+  "slides": [
+    {
+      "id": "cover",
+      "state": "edited",
+      "pageNum": 1
+    },
+    {
+      "id": "what_is_wall_passing",
+      "state": "edited",
+      "pageNum": 2
+    },
+    {
+      "id": "wall_passing_principle",
+      "state": "edited",
+      "pageNum": 3
+    },
+    {
+      "id": "examples",
+      "state": "edited",
+      "pageNum": 4
+    },
+    {
+      "id": "how_to_shoot",
+      "state": "edited",
+      "pageNum": 5
+    },
+    {
+      "id": "practice_time",
+      "state": "edited",
+      "pageNum": 6
+    },
+    {
+      "id": "break_time",
+      "state": "edited",
+      "pageNum": 7
+    },
+    {
+      "id": "advanced_wall_passing",
+      "state": "edited",
+      "pageNum": 8
+    },
+    {
+      "id": "showcase",
+      "state": "edited",
+      "pageNum": 9
+    },
+    {
+      "id": "tomorrow_preview",
+      "state": "edited",
+      "pageNum": 10
+    }
+  ],
+  "outline": [
+    {
+      "id": "cover",
+      "title": "穿牆術",
+      "summary": "課程開場與主題介紹",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "what_is_wall_passing",
+      "title": "什麼是穿牆術？",
+      "summary": "讓角色穿過實體障礙物",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "wall_passing_principle",
+      "title": "穿牆術的原理",
+      "summary": "利用視角和剪接的魔法",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "examples",
+      "title": "穿牆術的例子",
+      "summary": "穿過紙板牆、走進書本裡",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "how_to_shoot",
+      "title": "如何拍攝穿牆術？",
+      "summary": "分兩段拍攝，再接在一起",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "practice_time",
+      "title": "拍攝練習：穿過紙板牆",
+      "summary": "試著拍一段角色穿牆的動畫",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "break_time",
+      "title": "休息一下！",
+      "summary": "中場休息時間",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "advanced_wall_passing",
+      "title": "進階穿牆術",
+      "summary": "穿過不同材質的物品",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "showcase",
+      "title": "作品分享",
+      "summary": "展示大家拍出的穿牆動畫",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "tomorrow_preview",
+      "title": "明天預告 — 漂浮術",
+      "summary": "預告明天的課程內容",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    }
+  ]
+}

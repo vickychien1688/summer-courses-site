@@ -1,0 +1,144 @@
+{
+  "project_info": {
+    "title": "認識黏土與基本捏塑",
+    "created": 1775029340.141891,
+    "last_updated": 1775029626.575795,
+    "total_slides": 11
+  },
+  "slides": [
+    {
+      "id": "cover",
+      "state": "edited",
+      "pageNum": 1
+    },
+    {
+      "id": "clay_types",
+      "state": "edited",
+      "pageNum": 2
+    },
+    {
+      "id": "why_oil_clay",
+      "state": "edited",
+      "pageNum": 3
+    },
+    {
+      "id": "basic_shapes",
+      "state": "edited",
+      "pageNum": 4
+    },
+    {
+      "id": "color_mixing",
+      "state": "edited",
+      "pageNum": 5
+    },
+    {
+      "id": "make_character",
+      "state": "edited",
+      "pageNum": 6
+    },
+    {
+      "id": "break_time",
+      "state": "edited",
+      "pageNum": 7
+    },
+    {
+      "id": "start_sculpting",
+      "state": "edited",
+      "pageNum": 8
+    },
+    {
+      "id": "details_matter",
+      "state": "edited",
+      "pageNum": 9
+    },
+    {
+      "id": "showcase",
+      "state": "edited",
+      "pageNum": 10
+    },
+    {
+      "id": "tomorrow_preview",
+      "state": "edited",
+      "pageNum": 11
+    }
+  ],
+  "outline": [
+    {
+      "id": "cover",
+      "title": "認識黏土與基本捏塑",
+      "summary": "課程開場與主題介紹",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "clay_types",
+      "title": "黏土的種類",
+      "summary": "介紹輕質土、樹脂土、油土的特性",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "why_oil_clay",
+      "title": "為什麼動畫要用油土？",
+      "summary": "解釋油土不乾硬、好變形的優點",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "basic_shapes",
+      "title": "基本形狀練習",
+      "summary": "搓圓、搓長條、壓扁的技巧",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "color_mixing",
+      "title": "混色魔法",
+      "summary": "如何用三原色混出新顏色",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "make_character",
+      "title": "設計你的角色",
+      "summary": "畫出角色草圖並決定顏色",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "break_time",
+      "title": "休息一下！",
+      "summary": "中場休息時間",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "start_sculpting",
+      "title": "開始捏塑！",
+      "summary": "動手製作黏土角色",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "details_matter",
+      "title": "加上細節",
+      "summary": "眼睛、嘴巴、配件的製作",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "showcase",
+      "title": "角色展示",
+      "summary": "各組介紹自己的黏土角色",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "tomorrow_preview",
+      "title": "明天預告 — 角色的表情與變形",
+      "summary": "預告明天的課程內容",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    }
+  ]
+}

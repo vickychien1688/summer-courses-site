@@ -1,0 +1,132 @@
+{
+  "project_info": {
+    "title": "臉部表情變化",
+    "created": 1775036288.2223186,
+    "last_updated": 1775036905.7129903,
+    "total_slides": 10
+  },
+  "slides": [
+    {
+      "id": "cover",
+      "state": "edited",
+      "pageNum": 1
+    },
+    {
+      "id": "why_expressions_matter",
+      "state": "edited",
+      "pageNum": 2
+    },
+    {
+      "id": "basic_expressions",
+      "state": "edited",
+      "pageNum": 3
+    },
+    {
+      "id": "how_to_change_expressions",
+      "state": "edited",
+      "pageNum": 4
+    },
+    {
+      "id": "replacement_method",
+      "state": "edited",
+      "pageNum": 5
+    },
+    {
+      "id": "practice_time",
+      "state": "edited",
+      "pageNum": 6
+    },
+    {
+      "id": "break_time",
+      "state": "edited",
+      "pageNum": 7
+    },
+    {
+      "id": "shooting_expressions",
+      "state": "edited",
+      "pageNum": 8
+    },
+    {
+      "id": "showcase",
+      "state": "edited",
+      "pageNum": 9
+    },
+    {
+      "id": "tomorrow_preview",
+      "state": "edited",
+      "pageNum": 10
+    }
+  ],
+  "outline": [
+    {
+      "id": "cover",
+      "title": "臉部表情變化",
+      "summary": "課程開場與主題介紹",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "why_expressions_matter",
+      "title": "為什麼表情很重要？",
+      "summary": "讓角色活起來，傳達情緒",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "basic_expressions",
+      "title": "基本表情：喜怒哀樂",
+      "summary": "認識四種最常見的表情特徵",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "how_to_change_expressions",
+      "title": "如何改變黏土人的表情？",
+      "summary": "替換法 vs. 變形法",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "replacement_method",
+      "title": "替換法 (Replacement)",
+      "summary": "做好幾個不同的嘴巴或眼睛來替換",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "practice_time",
+      "title": "實作時間：製作表情配件",
+      "summary": "動手做幾組不同的眼睛和嘴巴",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "break_time",
+      "title": "休息一下！",
+      "summary": "中場休息時間",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "shooting_expressions",
+      "title": "拍攝表情變化",
+      "summary": "把表情配件換上去，拍出情緒轉折",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "showcase",
+      "title": "作品分享",
+      "summary": "展示大家拍出的表情動畫",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "tomorrow_preview",
+      "title": "明天預告 — 走路與跑步",
+      "summary": "預告明天的課程內容",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    }
+  ]
+}

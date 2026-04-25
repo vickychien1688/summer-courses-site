@@ -1,0 +1,132 @@
+{
+  "project_info": {
+    "title": "道具與場景製作",
+    "created": 1775037814.812607,
+    "last_updated": 1775038048.1018362,
+    "total_slides": 10
+  },
+  "slides": [
+    {
+      "id": "cover",
+      "state": "edited",
+      "pageNum": 1
+    },
+    {
+      "id": "why_props_matter",
+      "state": "edited",
+      "pageNum": 2
+    },
+    {
+      "id": "materials_for_props",
+      "state": "edited",
+      "pageNum": 3
+    },
+    {
+      "id": "how_to_make_props",
+      "state": "edited",
+      "pageNum": 4
+    },
+    {
+      "id": "building_the_set",
+      "state": "edited",
+      "pageNum": 5
+    },
+    {
+      "id": "practice_time_props",
+      "state": "edited",
+      "pageNum": 6
+    },
+    {
+      "id": "break_time",
+      "state": "edited",
+      "pageNum": 7
+    },
+    {
+      "id": "setting_up_the_stage",
+      "state": "edited",
+      "pageNum": 8
+    },
+    {
+      "id": "showcase",
+      "state": "edited",
+      "pageNum": 9
+    },
+    {
+      "id": "tomorrow_preview",
+      "state": "edited",
+      "pageNum": 10
+    }
+  ],
+  "outline": [
+    {
+      "id": "cover",
+      "title": "道具與場景製作",
+      "summary": "課程開場與主題介紹",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "why_props_matter",
+      "title": "為什麼需要道具和場景？",
+      "summary": "讓故事更真實、更有趣",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "materials_for_props",
+      "title": "製作道具的材料",
+      "summary": "紙板、黏土、回收物",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "how_to_make_props",
+      "title": "如何製作小道具？",
+      "summary": "用黏土捏出蘋果、用色紙做書本",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "building_the_set",
+      "title": "打造你的專屬場景",
+      "summary": "用紙箱做房間、畫出背景",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "practice_time_props",
+      "title": "實作時間：動手做道具與場景",
+      "summary": "根據分鏡圖製作需要的物品",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "break_time",
+      "title": "休息一下！",
+      "summary": "中場休息時間",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "setting_up_the_stage",
+      "title": "佈置舞台",
+      "summary": "把角色、道具和場景擺好",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "showcase",
+      "title": "場景大公開",
+      "summary": "展示大家做好的精美場景",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "tomorrow_preview",
+      "title": "明天預告 — 微電影開拍",
+      "summary": "預告明天的課程內容",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    }
+  ]
+}

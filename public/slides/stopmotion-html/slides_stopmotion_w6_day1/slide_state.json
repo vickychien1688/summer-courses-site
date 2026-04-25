@@ -1,0 +1,132 @@
+{
+  "project_info": {
+    "title": "消失的魔術",
+    "created": 1775034233.7554207,
+    "last_updated": 1775034541.6390367,
+    "total_slides": 10
+  },
+  "slides": [
+    {
+      "id": "cover",
+      "state": "edited",
+      "pageNum": 1
+    },
+    {
+      "id": "what_is_magic_effect",
+      "state": "edited",
+      "pageNum": 2
+    },
+    {
+      "id": "disappearing_trick",
+      "state": "edited",
+      "pageNum": 3
+    },
+    {
+      "id": "examples",
+      "state": "edited",
+      "pageNum": 4
+    },
+    {
+      "id": "how_to_shoot",
+      "state": "edited",
+      "pageNum": 5
+    },
+    {
+      "id": "practice_time",
+      "state": "edited",
+      "pageNum": 6
+    },
+    {
+      "id": "break_time",
+      "state": "edited",
+      "pageNum": 7
+    },
+    {
+      "id": "appearing_trick",
+      "state": "edited",
+      "pageNum": 8
+    },
+    {
+      "id": "showcase",
+      "state": "edited",
+      "pageNum": 9
+    },
+    {
+      "id": "tomorrow_preview",
+      "state": "edited",
+      "pageNum": 10
+    }
+  ],
+  "outline": [
+    {
+      "id": "cover",
+      "title": "消失的魔術",
+      "summary": "課程開場與主題介紹",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "what_is_magic_effect",
+      "title": "什麼是視覺魔術？",
+      "summary": "用定格動畫騙過眼睛",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "disappearing_trick",
+      "title": "消失的魔術原理",
+      "summary": "拿走物品，繼續拍",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "examples",
+      "title": "消失魔術的例子",
+      "summary": "吃掉餅乾、變不見的硬幣",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "how_to_shoot",
+      "title": "如何拍攝消失魔術？",
+      "summary": "固定相機，不要動到背景",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "practice_time",
+      "title": "拍攝練習：讓東西消失",
+      "summary": "試著拍一段物品消失的動畫",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "break_time",
+      "title": "休息一下！",
+      "summary": "中場休息時間",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "appearing_trick",
+      "title": "出現的魔術",
+      "summary": "反過來，讓東西突然出現",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "showcase",
+      "title": "作品分享",
+      "summary": "展示大家拍出的魔術動畫",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "tomorrow_preview",
+      "title": "明天預告 — 穿牆術",
+      "summary": "預告明天的課程內容",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    }
+  ]
+}

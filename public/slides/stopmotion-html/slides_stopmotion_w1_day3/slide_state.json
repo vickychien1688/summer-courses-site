@@ -1,0 +1,132 @@
+{
+  "project_info": {
+    "title": "拍攝第一部短片",
+    "created": 1775028721.308171,
+    "last_updated": 1775028993.041719,
+    "total_slides": 10
+  },
+  "slides": [
+    {
+      "id": "cover",
+      "state": "edited",
+      "pageNum": 1
+    },
+    {
+      "id": "prep_checklist",
+      "state": "edited",
+      "pageNum": 2
+    },
+    {
+      "id": "shooting_flow",
+      "state": "edited",
+      "pageNum": 3
+    },
+    {
+      "id": "setup_stage",
+      "state": "edited",
+      "pageNum": 4
+    },
+    {
+      "id": "action",
+      "state": "edited",
+      "pageNum": 5
+    },
+    {
+      "id": "break_time",
+      "state": "edited",
+      "pageNum": 6
+    },
+    {
+      "id": "continue_shooting",
+      "state": "edited",
+      "pageNum": 7
+    },
+    {
+      "id": "premiere_time",
+      "state": "edited",
+      "pageNum": 8
+    },
+    {
+      "id": "audience_feedback",
+      "state": "edited",
+      "pageNum": 9
+    },
+    {
+      "id": "tomorrow_preview",
+      "state": "edited",
+      "pageNum": 10
+    }
+  ],
+  "outline": [
+    {
+      "id": "cover",
+      "title": "拍攝第一部短片",
+      "summary": "課程開場與主題介紹",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "prep_checklist",
+      "title": "拍攝前的準備清單",
+      "summary": "確認分鏡表、道具、光線",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "shooting_flow",
+      "title": "拍攝流程",
+      "summary": "佈置場景 → 拍攝 → 預覽 → 重拍",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "setup_stage",
+      "title": "佈置你的小舞台",
+      "summary": "搭建場景與固定背景",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "action",
+      "title": "開拍！",
+      "summary": "提醒三大原則並開始拍攝",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "break_time",
+      "title": "休息一下！",
+      "summary": "中場休息時間",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "continue_shooting",
+      "title": "繼續拍攝",
+      "summary": "確認進度並完成後半段拍攝",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "premiere_time",
+      "title": "首映時間！",
+      "summary": "各組播放完成的短片",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "audience_feedback",
+      "title": "觀眾回饋",
+      "summary": "給予其他組別正向回饋與建議",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "tomorrow_preview",
+      "title": "明天預告 — 改良與完善",
+      "summary": "預告明天的課程內容",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    }
+  ]
+}

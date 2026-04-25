@@ -1,0 +1,132 @@
+{
+  "project_info": {
+    "title": "魔術綜合挑戰",
+    "created": 1775035331.1166112,
+    "last_updated": 1775035619.0716772,
+    "total_slides": 10
+  },
+  "slides": [
+    {
+      "id": "cover",
+      "state": "edited",
+      "pageNum": 1
+    },
+    {
+      "id": "review_magic_tricks",
+      "state": "edited",
+      "pageNum": 2
+    },
+    {
+      "id": "challenge_rules",
+      "state": "edited",
+      "pageNum": 3
+    },
+    {
+      "id": "story_planning",
+      "state": "edited",
+      "pageNum": 4
+    },
+    {
+      "id": "shooting_time",
+      "state": "edited",
+      "pageNum": 5
+    },
+    {
+      "id": "break_time",
+      "state": "edited",
+      "pageNum": 6
+    },
+    {
+      "id": "editing_and_sound",
+      "state": "edited",
+      "pageNum": 7
+    },
+    {
+      "id": "magic_show",
+      "state": "edited",
+      "pageNum": 8
+    },
+    {
+      "id": "feedback_time",
+      "state": "edited",
+      "pageNum": 9
+    },
+    {
+      "id": "next_week_preview",
+      "state": "edited",
+      "pageNum": 10
+    }
+  ],
+  "outline": [
+    {
+      "id": "cover",
+      "title": "魔術綜合挑戰",
+      "summary": "課程開場與主題介紹",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "review_magic_tricks",
+      "title": "複習：我們學過的魔術",
+      "summary": "消失、出現、穿牆、漂浮",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "challenge_rules",
+      "title": "今日挑戰規則",
+      "summary": "結合兩種以上的魔術拍一段短片",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "story_planning",
+      "title": "構思你的魔術故事",
+      "summary": "先畫分鏡圖，決定哪裡要變魔術",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "shooting_time",
+      "title": "開始拍攝！",
+      "summary": "實作時間，老師巡迴指導",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "break_time",
+      "title": "休息一下！",
+      "summary": "中場休息時間",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "editing_and_sound",
+      "title": "剪輯與配音",
+      "summary": "加上音效讓魔術更逼真",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "magic_show",
+      "title": "大魔術師表演秀",
+      "summary": "播放大家的作品，互相欣賞",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "feedback_time",
+      "title": "講評與回饋",
+      "summary": "討論哪裡拍得好，哪裡可以改進",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "next_week_preview",
+      "title": "下週預告 — 進階黏土動畫",
+      "summary": "預告下週的課程內容",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    }
+  ]
+}
