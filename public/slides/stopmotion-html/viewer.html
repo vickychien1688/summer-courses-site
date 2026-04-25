@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>定格動畫投影片</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body { width: 100%; height: 100%; background: #1a1a1a; color: #fff; font-family: -apple-system, BlinkMacSystemFont, "Noto Sans TC", sans-serif; overflow: hidden; }
+    #app {
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+    }
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 12px 20px;
+      background: #2a2a2a;
+      border-bottom: 1px solid #444;
+    }
+    .header h1 { font-size: 16px; font-weight: 600; flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .header .counter { font-size: 14px; color: #aaa; margin: 0 16px; }
+    .stage {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .slide-wrap {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+    .slide {
+      max-width: 100%;
+      max-height: 100%;
+      width: auto;
+      height: auto;
+      object-fit: contain;
+      background: #000;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.5);
+    }
+    .nav-btn {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+      background: rgba(255,255,255,0.1);
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      font-size: 28px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background 0.2s;
+    }
+    .nav-btn:hover { background: rgba(255,255,255,0.2); }
+    .nav-btn:disabled { opacity: 0.3; cursor: not-allowed; }
+    .prev { left: 16px; }
+    .next { right: 16px; }
+    .footer {
+      padding: 12px 20px;
+      background: #2a2a2a;
+      border-top: 1px solid #444;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      overflow-x: auto;
+      white-space: nowrap;
+    }
+    .thumb {
+      flex-shrink: 0;
+      height: 56px;
+      cursor: pointer;
+      border: 2px solid transparent;
+      border-radius: 4px;
+      overflow: hidden;
+      background: #000;
+    }
+    .thumb img { height: 100%; display: block; }
+    .thumb.active { border-color: #E8772E; }
+    .loading, .error {
+      text-align: center;
+      padding: 40px;
+      color: #aaa;
+    }
+    .error { color: #f88; }
+    .title-row {
+      display: flex;
+      gap: 8px;
+      align-items: baseline;
+      flex: 1;
+      min-width: 0;
+    }
+    .title-row .slide-title {
+      color: #aaa;
+      font-weight: 400;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div id="app">
+    <div class="loading">載入投影片中…</div>
+  </div>
+
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const dir = params.get('dir');
+    if (!dir) {
+      document.getElementById('app').innerHTML = '<div class="error">缺少 ?dir=資料夾名 參數</div>';
+      throw new Error('no dir');
+    }
+
+    const baseUrl = `./${dir}`;
+
+    async function loadAndRender() {
+      try {
+        const res = await fetch(`${baseUrl}/slide_state.json`);
+        if (!res.ok) throw new Error(`找不到 slide_state.json (${res.status})`);
+        const data = await res.json();
+        const title = data.project_info?.title || dir;
+        const slides = data.slides || [];
+        const outline = data.outline || [];
+        const titleMap = Object.fromEntries(outline.map(o => [o.id, o.title]));
+
+        const slideList = slides
+          .sort((a, b) => a.pageNum - b.pageNum)
+          .map(s => ({
+            id: s.id,
+            title: titleMap[s.id] || s.id,
+            url: `${baseUrl}/${s.id}_generated.webp`,
+          }));
+
+        if (slideList.length === 0) {
+          document.getElementById('app').innerHTML = '<div class="error">這個投影片資料夾沒有任何頁面</div>';
+          return;
+        }
+
+        let idx = 0;
+        const app = document.getElementById('app');
+        app.innerHTML = `
+          <div class="header">
+            <div class="title-row">
+              <strong id="course-title">${title}</strong>
+              <span class="slide-title" id="slide-title"></span>
+            </div>
+            <div class="counter" id="counter"></div>
+          </div>
+          <div class="stage">
+            <div class="slide-wrap">
+              <img class="slide" id="slide-img" alt="" />
+            </div>
+            <button class="nav-btn prev" id="prev">‹</button>
+            <button class="nav-btn next" id="next">›</button>
+          </div>
+          <div class="footer" id="thumbs"></div>
+        `;
+
+        const slideImg = document.getElementById('slide-img');
+        const counter = document.getElementById('counter');
+        const slideTitle = document.getElementById('slide-title');
+        const prevBtn = document.getElementById('prev');
+        const nextBtn = document.getElementById('next');
+        const thumbs = document.getElementById('thumbs');
+
+        // 縮圖列
+        slideList.forEach((s, i) => {
+          const t = document.createElement('div');
+          t.className = 'thumb';
+          t.dataset.idx = i;
+          t.innerHTML = `<img src="${s.url}" alt="${s.title}" loading="lazy">`;
+          t.onclick = () => goTo(i);
+          thumbs.appendChild(t);
+        });
+
+        function goTo(i) {
+          idx = Math.max(0, Math.min(slideList.length - 1, i));
+          const s = slideList[idx];
+          slideImg.src = s.url;
+          slideImg.alt = s.title;
+          slideTitle.textContent = ' — ' + s.title;
+          counter.textContent = `${idx + 1} / ${slideList.length}`;
+          prevBtn.disabled = idx === 0;
+          nextBtn.disabled = idx === slideList.length - 1;
+          [...thumbs.children].forEach((t, ti) => {
+            t.classList.toggle('active', ti === idx);
+            if (ti === idx) t.scrollIntoView({ inline: 'center', behavior: 'smooth' });
+          });
+        }
+
+        prevBtn.onclick = () => goTo(idx - 1);
+        nextBtn.onclick = () => goTo(idx + 1);
+        document.addEventListener('keydown', (e) => {
+          if (e.key === 'ArrowLeft' || e.key === 'PageUp') goTo(idx - 1);
+          else if (e.key === 'ArrowRight' || e.key === 'PageDown' || e.key === ' ') goTo(idx + 1);
+          else if (e.key === 'Home') goTo(0);
+          else if (e.key === 'End') goTo(slideList.length - 1);
+        });
+
+        goTo(0);
+      } catch (err) {
+        document.getElementById('app').innerHTML = `<div class="error">載入失敗：${err.message}</div>`;
+      }
+    }
+
+    loadAndRender();
+  </script>
+</body>
+</html>
