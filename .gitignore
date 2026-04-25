@@ -11,15 +11,24 @@ dist-ssr
 .idea
 .DS_Store
 
-# 大型教材檔（請上傳到 Google Drive）
+# 大型素材檔
 *.pptx
-*.pdf
 投影片/
 *_完整教材*.zip
 *_完整教材包.zip
 CSI_科學小偵探_全集*
 國家主題探索_完整教材包*
 小小甜點烘焙師_完整教材*
+
+# PDF 預設不傳，但 public/slides/ 下的允許（教學投影片）
+*.pdf
+!public/slides/**/*.pdf
+
+# LibreOffice 暫存檔
+.~lock.*#
+*.tmp
+public/slides/**/.~lock.*
+public/slides/**/*.tmp
 
 # Logs
 *.log
